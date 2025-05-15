@@ -1,3 +1,120 @@
+### 📘 **Definizione giuridica del software**
+
+**Q: Come definisce il WIPO il software (1984)?**
+A: Insieme organizzato di istruzioni in qualsiasi forma o supporto, capace di eseguire funzioni tramite un sistema di elaborazione elettronica.
+
+**Q: Cosa distingue i programmi di base da quelli applicativi?**
+A: I programmi di base eseguono operazioni comuni; gli applicativi svolgono funzioni specifiche per l'utente.
+
+**Q: Cos’è il codice sorgente e il codice oggetto?**
+A: Il sorgente è il linguaggio del programmatore; l’oggetto è il codice eseguibile dalla macchina, derivato dal sorgente.
+
+**Q: Il software è un bene materiale o immateriale?**
+A: Immateriale: non si consuma con l'uso e può essere utilizzato da più soggetti.
+
+---
+
+### 🧑‍💻 **Contratto di sviluppo del software**
+
+**Q: Cos’è un contratto di sviluppo software?**
+A: Un contratto atipico dove uno sviluppatore realizza un software personalizzato per un committente, dietro compenso.
+
+**Q: Quali sono le due principali forme giuridiche del contratto di sviluppo software?**
+A: Contratto d’opera (art. 2222 c.c.) e contratto d’appalto (art. 1655 c.c.).
+
+**Q: Che responsabilità ha lo sviluppatore in un contratto d’opera?**
+A: Solo per dolo o colpa grave (art. 2236 c.c.).
+
+**Q: Che responsabilità ha lo sviluppatore in un contratto d’appalto?**
+A: Deve garantire un risultato conforme alle specifiche e rispondere per vizi e difformità (artt. 1667-1668 c.c.).
+
+**Q: Chi detiene i diritti morali nel contratto di sviluppo software?**
+A: Sempre lo sviluppatore, in quanto inalienabili.
+
+**Q: Chi detiene i diritti patrimoniali se lo sviluppatore è autonomo?**
+A: Lo sviluppatore, salvo cessione. Il committente ha una licenza d’uso.
+
+**Q: Cosa succede ai diritti patrimoniali in un rapporto subordinato?**
+A: Appartengono al datore di lavoro.
+
+**Q: Quali sono le 3 fasi del contratto di sviluppo?**
+A: Studio di fattibilità, progettazione, collaudo.
+
+**Q: Cosa prevede la fase di collaudo?**
+A: Test, tempi, forme, modalità di accettazione del software e comunicazione di eventuali problemi.
+
+---
+
+### 💾 **Licenza d’uso del software**
+
+**Q: Cosa prevede normalmente una licenza d'uso?**
+A: Il cliente riceve il codice oggetto ma non il sorgente. Il software resta proprietà dello sviluppatore.
+
+**Q: Cos’è il source code escrow?**
+A: Un contratto dove il codice sorgente viene depositato presso terzi, a tutela del committente.
+
+**Q: Quali diritti patrimoniali può trasferire l'autore in una licenza?**
+A: Pubblicazione, riproduzione, modificazione, distribuzione, noleggio e prestito (art. 12 LdA).
+
+**Q: In cosa si differenzia una licenza d’uso dalla cessione?**
+A: La licenza non trasferisce la proprietà, ma solo il diritto d'uso.
+
+---
+
+### 🧠 **Proprietà intellettuale del software**
+
+**Q: Quali sono i diritti che spettano sempre alla software house?**
+A: I diritti morali (inalienabili).
+
+**Q: Come possono essere trasferiti i diritti economici?**
+A: Mediante contratto, ad esempio tramite royalty.
+
+**Q: È sempre chiaro chi detiene il codice sorgente?**
+A: No, va specificato contrattualmente.
+
+---
+
+### 📑 **Contratto di licenza d’uso (approfondimento)**
+
+**Q: Come si classifica il contratto di licenza d’uso secondo la dottrina?**
+A: Prevalentemente come contratto di locazione.
+
+**Q: Chi sono le parti coinvolte?**
+A: Licenziante (fornitore del software) e licenziatario (utilizzatore).
+
+**Q: Qual è lo scopo della licenza d’uso?**
+A: Consentire l’uso del software senza trasferirne la proprietà.
+
+**Q: Il canone può essere permanente o temporaneo?**
+A: Sì, può essere pagato una tantum o periodicamente.
+
+---
+
+### 🛒 **Contratto di compravendita del software**
+
+**Q: Cosa implica il contratto di compravendita software?**
+A: Il trasferimento pieno e illimitato dei diritti, incluse successive rivendite.
+
+**Q: Che tipo di bene è il software in questo contratto?**
+A: Un bene immateriale oggetto di vendita tecnica.
+
+---
+
+### 📋 **Confronto tra contratti**
+
+| Tipo di contratto      | Proprietà codice | Responsabilità        | Uso del software            |
+| ---------------------- | ---------------- | --------------------- | --------------------------- |
+| **Licenza d’uso**      | Licenziante      | Limitata              | Uso limitato, non proprietà |
+| **Compravendita**      | Licenziatario    | Totale                | Uso e rivendita liberi      |
+| **Sviluppo (d'opera)** | Sviluppatore     | Solo dolo/colpa grave | Licenza d’uso               |
+| **Sviluppo (appalto)** | Sviluppatore     | Obbligo di risultato  | Garanzia per vizi           |
+
+---
+
+Fammi sapere se vuoi queste flashcard in formato **Anki**, **PDF**, o se desideri aggiungere esempi o immagini illustrative!
+
+
+
 ### 📚 **Diritto d'autore (Copyright)**
 
 **Q: Cosa tutela il diritto d'autore nel software?**
