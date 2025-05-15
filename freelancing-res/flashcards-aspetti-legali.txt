@@ -201,3 +201,70 @@ A: Sì, è equiparata alla vendita su supporto fisico (es. CD, DVD).
 A: Rivendere il software senza bisogno di autorizzazione del titolare.
 
 ---
+
+Ecco una serie di **flashcards** basate sul testo fornito, organizzate per facilitare lo studio dei concetti giuridici legati alla **licenza e rivendita del software usato**:
+
+---
+
+### 🟦 **Flashcard 1**
+
+**Domanda:** Quando è legittima la rivendita di un software concesso in licenza?
+**Risposta:** Quando la licenza è concessa a tempo illimitato e a fronte di un pagamento, anche in assenza di supporto fisico.
+
+---
+
+### 🟦 **Flashcard 2**
+
+**Domanda:** Le clausole che vietano la rivendita del software sono valide?
+**Risposta:** No, sono invalide se mirano ad aggirare l’esaurimento del diritto di distribuzione (art. 1379 c.c.).
+
+---
+
+### 🟦 **Flashcard 3**
+
+**Domanda:** Cosa deve fare l’acquirente per rivendere un software installato?
+**Risposta:** Deve rendere inutilizzabile in modo definitivo, irreversibile e verificabile la copia originaria sul proprio dispositivo.
+
+---
+
+### 🟦 **Flashcard 4**
+
+**Domanda:** Come può il titolare del diritto verificare l’inutilizzo della copia originale?
+**Risposta:** Attraverso misure tecniche di protezione, come chiavi di accesso online legate all'elaboratore.
+
+---
+
+### 🟦 **Flashcard 5**
+
+**Domanda:** È possibile scorporare licenze software multiple in fase di rivendita?
+**Risposta:** No, vige il principio di inscindibilità della licenza.
+
+---
+
+### 🟦 **Flashcard 6**
+
+**Domanda:** L’acquirente del software usato ha diritto all’assistenza e manutenzione?
+**Risposta:** No, tali servizi spettano solo al primo acquirente, salvo diversa richiesta esplicita del secondo.
+
+---
+
+### 🟦 **Flashcard 7**
+
+**Domanda:** Come possono i produttori di software mantenere il controllo post-vendita?
+**Risposta:** Limitando temporalmente il diritto d’uso e prevedendo un canone periodico anziché un corrispettivo unico.
+
+---
+
+### 🟦 **Flashcard 8**
+
+**Domanda:** Quale tipo di contratto è assimilabile alla locazione del software?
+**Risposta:** Quello con durata limitata e pagamento periodico, non corrispondente al valore della copia.
+
+---
+
+### 🟦 **Flashcard 9**
+
+**Domanda:** Perché il cloud computing evita la rivendita del software?
+**Risposta:** Perché non viene ceduta una copia del codice, ma solo l'accesso, assimilabile a un abbonamento.
+
+---
