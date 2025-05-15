@@ -335,3 +335,116 @@ A:
 * Assistenza e manutenzione a pagamento
 
 ---
+
+## 📚 SEZIONE 1 – CONCETTI GENERALI
+
+**Q: Il software è considerato un'opera protetta dal diritto d'autore?**
+A: Sì, il software è considerato un’opera creativa e tutelata dal diritto d'autore come le opere letterarie.
+
+**Q: Quando nasce il diritto d'autore su un'opera?**
+A: Il diritto d'autore nasce automaticamente con la creazione dell’opera.
+
+**Q: Può un’opera avere più autori?**
+A: Sì, il diritto d'autore può coinvolgere più autori (es. opere collettive o in collaborazione).
+
+**Q: È obbligatorio registrare l’opera?**
+A: No, ma è **consigliabile** depositarla presso enti come la **SIAE** per prova della paternità.
+
+**Q: Che simbolo indica un’opera coperta da diritto d’autore?**
+A: La **“c” cerchiata** (©).
+
+---
+
+## ⚖️ SEZIONE 2 – DIRITTI DELL’AUTORE
+
+**Q: In cosa si distingue il diritto d'autore?**
+A: In **diritto morale** (inalienabile) e **diritto patrimoniale** (trasferibile).
+
+**Q: A cosa si riferisce il termine “copyright”?**
+A: Al **diritto patrimoniale**, ovvero ai diritti economici sull’opera.
+
+**Q: Cosa sono le “royalties”?**
+A: Sono compensi derivanti dallo sfruttamento economico dell’opera (es. vendita, licenze).
+
+---
+
+## 📜 SEZIONE 3 – FONTI NORMATIVE
+
+**Q: Qual è la legge principale che disciplina il diritto d’autore in Italia?**
+A: La **Legge 633/1941**, con modifiche successive.
+
+**Q: Quali altre fonti normative integrano la Legge 633/41?**
+A:
+
+* Articoli **2575-2584 del Codice Civile**
+* **Legge 248/2000**
+* **Decreto Legge 72/2004**
+* **Regolamento sul diritto d’autore nelle reti di comunicazione elettronica**
+
+**Q: Cosa garantiscono le normative aggiuntive?**
+A: Adeguamento alla diffusione delle opere digitali e protezione su Internet.
+
+---
+
+## 🌐 SEZIONE 4 – DIRITTO D’AUTORE E INTERNET
+
+**Q: Perché Internet ha reso più complessa la tutela del diritto d'autore?**
+A: Perché le opere sono **immateriali e facilmente copiabili o condivisibili**.
+
+**Q: È reato condividere opere protette tramite file sharing?**
+A: Sì, è reato se manca l’autorizzazione dell’autore.
+
+**Q: È possibile rimuovere contenuti protetti caricati online?**
+A: Sì, si può **ordinare la rimozione dei contenuti o, nei casi gravi, delle piattaforme**.
+
+---
+
+## 🔨 SEZIONE 5 – TUTELE E SANZIONI
+
+**Q: Quali tipi di azioni sono previste per tutelare il diritto d'autore?**
+A: **Azioni penali** e **azioni civili**.
+
+**Q: Quando si configura reato per violazione del diritto d’autore?**
+A: Quando c’è **intenzionalità** e **profitto** (economico o morale).
+
+**Q: Cosa si intende per profitto economico in questo contesto?**
+A: Guadagno maggiore o spesa minore ottenuti con l’uso illecito dell’opera.
+
+---
+
+## 🏛️ SEZIONE 6 – DIRITTO PRIVATO E PROPRIETÀ INTELLETTUALE
+
+**Q: In quale ramo del diritto rientra il diritto d'autore?**
+A: Nel **diritto civile**, all’interno della **proprietà intellettuale**.
+
+**Q: Quali sono le tre grandi aree della proprietà intellettuale?**
+A:
+
+1. **Diritto d'autore**
+2. **Diritto dei brevetti**
+3. **Diritto dei marchi**
+
+---
+
+## 🏭 SEZIONE 7 – CONFRONTO: DIRITTO D’AUTORE VS PROPRIETÀ INDUSTRIALE
+
+| Aspetto     | Diritto d'autore                  | Proprietà industriale                                     |
+| ----------- | --------------------------------- | --------------------------------------------------------- |
+| Oggetto     | Opere creative                    | Invenzioni, marchi, design                                |
+| Come nasce? | Automaticamente                   | Con registrazione                                         |
+| Durata      | 70 anni dopo la morte dell’autore | Brevetti: 20 anni, Marchi: 10 rinnovabili, Design: max 25 |
+| Esempi      | Romanzi, canzoni, film, software  | Logo Nike, bottiglia particolare, tecnologia              |
+
+---
+
+## 🖥️ SEZIONE 8 – SOFTWARE E TUTELA DIGITALE
+
+**Q: Come sono classificati i software ai fini del diritto d’autore?**
+A: Come **opere letterarie** (originali e creative).
+
+**Q: Quali strumenti digitali tutelano i diritti d'autore sul software?**
+A:
+
+* **Watermark**
+* **DRM (Digital Rights Management)**
+* **Licenze Creative Commons**
