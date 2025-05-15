@@ -268,3 +268,70 @@ Ecco una serie di **flashcards** basate sul testo fornito, organizzate per facil
 **Risposta:** Perché non viene ceduta una copia del codice, ma solo l'accesso, assimilabile a un abbonamento.
 
 ---
+
+### 🧠 DEFINIZIONE E PRINCIPI
+
+**Q: Cos'è il modello open source (OS)?**
+A: È un modello di distribuzione del software basato sul diritto d'autore, che prevede la circolazione del software in versione codice sorgente.
+
+**Q: Qual è la condizione fondamentale per definire un software "open source"?**
+A: Il codice sorgente deve essere accessibile a chiunque, direttamente o tramite indicazioni pubbliche su come ottenerlo.
+
+**Q: Qual è l’essenza del software open source?**
+A: L’assenza di restrizioni d’uso: il software può essere usato e redistribuito liberamente, anche senza corrispettivo.
+
+---
+
+### 🔧 DIRITTI DEL LICENZIATARIO
+
+**Q: Quali diritti sono attribuiti al licenziatario di software OS?**
+A: Riproduzione, modifica, distribuzione, copia e uso, generalmente senza obbligo di corrispettivo.
+
+**Q: È possibile apportare modifiche al software OS?**
+A: Sì, chiunque può modificare il programma in qualsiasi forma e modo.
+
+**Q: Le licenze OS sono esclusive?**
+A: No, sono non esclusive, senza limiti temporali o territoriali.
+
+**Q: In caso di sublicenza, cosa succede ai diritti?**
+A: Vengono trasmessi al sublicenziatario secondo le condizioni della licenza originaria.
+
+---
+
+### 🔁 OPERE DERIVATE E DISTRIBUZIONE
+
+**Q: Cosa succede se un software OS viene incluso in un altro software?**
+A: La parte OS resta soggetta alla licenza originaria.
+
+**Q: Quali accorgimenti devono essere presi per le opere derivate?**
+A: Va predisposta una nuova licenza che ometta riferimenti al primo autore o indichi la fonte, chiarendo che i termini sono differenti.
+
+**Q: Può essere chiesto un corrispettivo per la distribuzione del software OS?**
+A: No, ma si può richiedere un compenso per servizi come assistenza o manutenzione.
+
+---
+
+### 📜 TIPOLOGIE DI LICENZA
+
+**Q: Cosa sono le licenze GPL e AGPL?**
+A: Licenze OS che seguono la clausola "copyleft", obbligando a mantenere le stesse libertà anche per i derivati.
+
+**Q: Cosa sono le licenze Apache, MIT e BSD?**
+A: Licenze OS **permissive**, che permettono di incorporare il codice in software proprietari.
+
+---
+
+### ⚖️ NATURA GIURIDICA E MODELLI ECONOMICI
+
+**Q: Qual è la natura giuridica prevalente delle licenze OS?**
+A: Contratti gratuiti atipici, con un interesse economico indiretto per il licenziante.
+
+**Q: Quali sono i principali modelli economici legati al software OS?**
+A:
+
+* Combinazione con software proprietari a pagamento
+* Vendita di manuali e documentazione
+* Servizi di personalizzazione
+* Assistenza e manutenzione a pagamento
+
+---
