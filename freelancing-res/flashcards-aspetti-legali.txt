@@ -1,0 +1,88 @@
+### 📚 **Diritto d'autore (Copyright)**
+
+**Q: Cosa tutela il diritto d'autore nel software?**
+A: La forma espressiva del software (codice sorgente, codice oggetto, materiale preparatorio), non le idee o funzioni.
+
+**Q: Quali sono le due componenti del diritto d'autore sul software?**
+A: Componente morale (inalienabile) e componente patrimoniale (cedibile).
+
+**Q: Quando nasce il diritto d'autore?**
+A: Al momento della creazione del programma, senza formalità (art. 6 LdA).
+
+**Q: Quali sono i diritti morali dell'autore?**
+A: Diritto alla paternità, all’onore e alla reputazione, e di inedito (artt. 20-24 LdA).
+
+**Q: Cosa permettono i diritti patrimoniali?**
+A: Sfruttamento economico dell’opera (art. 12 LdA): sviluppo, noleggio, licenza d’uso, ecc.
+
+**Q: Quali operazioni sul software richiedono autorizzazione del titolare dei diritti?**
+A: Caricamento, esecuzione, trasmissione, memorizzazione, traduzione, adattamento e modifica.
+
+---
+
+### 🔍 **Decompilazione del Software**
+
+**Q: Quando è permessa la decompilazione di un software?**
+A: Solo se:
+
+* eseguita da chi ha diritto d’uso,
+* le informazioni non sono facilmente accessibili,
+* riguarda solo parti per interoperabilità,
+* le info non sono comunicate a terzi,
+* non si creano programmi simili.
+
+---
+
+### 🧠 **Brevettabilità del Software**
+
+**Q: I programmi per elaboratore sono brevettabili?**
+A: No, se considerati "in quanto tali" (art. 12 L.I.), ma sì se parte di un'invenzione con effetto tecnico.
+
+**Q: Quali sono i requisiti per brevettare un software?**
+A: Carattere tecnico, novità, originalità, liceità, applicabilità industriale.
+
+**Q: Dove si presenta la domanda di brevetto software?**
+A: Presso l’Ufficio Centrale Brevetti (UCB).
+
+**Q: Qual è la durata di un brevetto software?**
+A: 20 anni dalla data della domanda.
+
+---
+
+### ⚖️ **Confronto: Copyright vs Brevetto**
+
+**Q: Cosa protegge il diritto d'autore?**
+A: La forma del software (codice).
+
+**Q: Cosa protegge il brevetto?**
+A: L’idea/funzionalità del software.
+
+**Q: Quando nascono i diritti di copyright e brevetto?**
+A: Copyright: alla creazione dell'opera;
+Brevetto: alla registrazione.
+
+**Q: Qual è la durata del diritto d'autore?**
+A: 70 anni dalla morte dell’autore.
+
+**Q: Il brevetto richiede la pubblicazione del codice sorgente?**
+A: Sì, entra a far parte del patrimonio scientifico.
+
+---
+
+### 🌍 **Distribuzione del Software e Esaurimento Comunitario**
+
+**Q: Cos’è il principio di esaurimento comunitario?**
+A: Dopo la prima vendita nell’UE, il titolare non può opporsi alla rivendita del software.
+
+**Q: Quali sono le condizioni per l’esaurimento del diritto di distribuzione?**
+A: Vendita autorizzata e a pagamento, senza limiti di durata.
+
+**Q: Vale anche per copie digitali scaricate via internet?**
+A: Sì, è equiparata alla vendita su supporto fisico (es. CD, DVD).
+
+**Q: Cosa può fare il cessionario del software?**
+A: Rivendere il software senza bisogno di autorizzazione del titolare.
+
+---
+
+Fammi sapere se vuoi queste flashcard in un formato specifico (PDF, Anki, Quizlet, ecc.) o se desideri versioni con immagini o quiz!
