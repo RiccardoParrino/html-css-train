@@ -448,3 +448,101 @@ A:
 * **Watermark**
 * **DRM (Digital Rights Management)**
 * **Licenze Creative Commons**
+
+---
+
+### 📝 **Contratto d'opera – Flashcards**
+
+**Flashcard 1**
+**Q:** Cos'è un contratto d'opera secondo l’art. 2222 c.c.?
+**A:** È un contratto con cui una persona si obbliga a compiere un’opera o un servizio verso corrispettivo, con lavoro prevalentemente proprio e senza vincolo di subordinazione.
+
+---
+
+**Flashcard 2**
+**Q:** Qual è l’oggetto del contratto d’opera?
+**A:** Il risultato dell’opera, non il lavoro in sé.
+
+---
+
+**Flashcard 3**
+**Q:** Che rimedio ha il committente in caso di esecuzione non conforme?
+**A:** Può fissare un termine per adeguarsi (simile a diffida ad adempiere, art. 1454 c.c.) e, se non rispettato, recedere dal contratto e chiedere il risarcimento (art. 2224 c.c.).
+
+---
+
+**Flashcard 4**
+**Q:** Cosa prevede l’art. 2236 c.c. sulla responsabilità del prestatore?
+**A:** Se l’attività comporta problemi tecnici di speciale difficoltà, il prestatore risponde solo per dolo o colpa grave.
+
+---
+
+**Flashcard 5**
+**Q:** Quali articoli regolano la diligenza e responsabilità del prestatore d’opera?
+**A:** Articoli 1176 e 2104 del Codice Civile.
+
+---
+
+### 💻 **Contenuti tipici del contratto d’opera software**
+
+**Flashcard 6**
+**Q:** Cosa include l’Articolo 1 di un contratto d’opera per sviluppo software?
+**A:** Oggetto del contratto: sviluppo di software secondo specifiche del committente.
+
+---
+
+**Flashcard 7**
+**Q:** Qual è la struttura tipica del pagamento?
+**A:** Anticipo alla firma, pagamento alla beta, saldo alla consegna e accettazione.
+
+---
+
+**Flashcard 8**
+**Q:** Che cosa disciplina l’Art. 4 del contratto?
+**A:** Il trasferimento dei diritti di proprietà intellettuale sul software.
+
+---
+
+**Flashcard 9**
+**Q:** Qual è lo scopo dell’articolo sulla riservatezza?
+**A:** Impone alle parti di mantenere segrete le informazioni anche dopo la fine del contratto.
+
+---
+
+**Flashcard 10**
+**Q:** Cosa accade se il fornitore è in ritardo?
+**A:** Può essere prevista una penale giornaliera trattenuta dal pagamento.
+
+---
+
+### ⚖️ **Contratto d'appalto – Flashcards**
+
+**Flashcard 11**
+**Q:** Differenza principale tra appalto e contratto d’opera?
+**A:** Nell'appalto l’opera è complessa e spesso organizzata dal prestatore con mezzi e manodopera propri.
+
+---
+
+**Flashcard 12**
+**Q:** Cosa regola l’Articolo 6 del contratto d'appalto?
+**A:** Termini di esecuzione e penali per eventuali ritardi.
+
+---
+
+**Flashcard 13**
+**Q:** Cos'è il “Patto di Integrità” nel contratto d’appalto?
+**A:** Un impegno delle parti al rispetto di norme etiche e legali.
+
+---
+
+**Flashcard 14**
+**Q:** Cosa prevede la clausola sulla cessione del contratto?
+**A:** Il divieto o le condizioni per subappaltare o cedere il contratto a terzi.
+
+---
+
+**Flashcard 15**
+**Q:** A cosa serve la clausola sulla tracciabilità dei flussi finanziari?
+**A:** A garantire trasparenza nei pagamenti, in particolare per appalti pubblici.
+
+---
