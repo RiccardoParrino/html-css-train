@@ -546,3 +546,59 @@ A:
 **A:** A garantire trasparenza nei pagamenti, in particolare per appalti pubblici.
 
 ---
+
+### 📘 **Flashcard 1**
+
+**Domanda:** Cosa prevede l’**art. 1734 c.c.** in caso di revoca dell’ordine da parte del committente prima della conclusione dell’affare?
+**Risposta:** Il committente può revocare l’ordine finché l’affare non è concluso, ma il commissionario ha diritto a una parte della provvigione, considerando spese e opera prestata.
+
+---
+
+### 📘 **Flashcard 2**
+
+**Domanda:** Cosa stabilisce l’**art. 2237 c.c.** sul recesso del cliente da un contratto d’opera?
+**Risposta:** Il cliente può recedere rimborsando le spese sostenute e pagando il compenso per l’opera svolta. Il prestatore può recedere per giusta causa, ma senza arrecare pregiudizio al cliente.
+
+---
+
+### 📘 **Flashcard 3**
+
+**Domanda:** Quando è possibile recedere da un contratto di lavoro secondo l’**art. 2119 c.c.**?
+**Risposta:** Si può recedere senza preavviso per giusta causa, se la prosecuzione del rapporto è insostenibile. La giusta causa non include la liquidazione coatta amministrativa dell’impresa.
+
+---
+
+### 📘 **Flashcard 4**
+
+**Domanda:** Cosa prevede l’**art. 1672 c.c.** se l’esecuzione dell’opera diventa impossibile per causa non imputabile?
+**Risposta:** Il committente paga la parte di opera già compiuta nei limiti in cui gli è utile, in proporzione al prezzo pattuito.
+
+---
+
+### 📘 **Flashcard 5**
+
+**Domanda:** Qual è il contenuto dell’**art. 2228 c.c.** sull’impossibilità dell’opera?
+**Risposta:** Se l’opera diventa impossibile per causa non imputabile, il prestatore d’opera ha diritto al compenso per il lavoro utile già svolto.
+
+---
+
+### 📘 **Flashcard 6**
+
+**Domanda:** Secondo l’**art. 1218 c.c.**, quando è esente da responsabilità il debitore che non adempie?
+**Risposta:** Se prova che l’inadempimento è dovuto a causa a lui non imputabile.
+
+---
+
+### 📘 **Flashcard 7**
+
+**Domanda:** Cosa prevede l’**art. 1776 c.c.** riguardo l’erede del depositario che aliena la cosa in buona fede?
+**Risposta:** È obbligato a restituire solo il corrispettivo ricevuto. Se non ancora pagato, il depositante subentra nel diritto.
+
+---
+
+### 📘 **Flashcard 8**
+
+**Domanda:** Secondo l’**art. 1228 c.c.**, quando il debitore risponde per i terzi?
+**Risposta:** Se si avvale dell’opera di terzi, risponde anche per i loro fatti dolosi o colposi, salvo diversa volontà delle parti.
+
+---
