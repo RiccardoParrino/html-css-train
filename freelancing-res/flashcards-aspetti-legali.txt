@@ -704,3 +704,79 @@ A:
 **Risposta:** Il software può essere **modificato, studiato e redistribuito liberamente**, secondo specifiche licenze (es. GPL, MIT).
 
 ---
+
+### 🟦 FLASHCARDS: RESPONSABILITÀ CIVILE E APPALTO 🟦
+
+---
+
+**❓ Cos’è il dolo nel diritto civile?**
+🔹 Comportamento **intenzionale** volto a danneggiare, ingannare o frodare un'altra persona.
+
+---
+
+**❓ Cos’è la colpa grave?**
+🔹 **Trascuratezza spiccata** che viola in modo marcato il dovere di diligenza, senza essere intenzionale come il dolo.
+
+---
+
+**❓ Differenza tra dolo e colpa grave?**
+🔹 Il **dolo** è intenzionale;
+🔹 La **colpa grave** è una negligenza molto accentuata, ma **non intenzionale**.
+
+---
+
+**❓ Cos’è la colpa lieve?**
+🔹 **Mancanza di diligenza, prudenza o perizia** in misura non particolarmente grave.
+
+---
+
+**❓ Quali sono le tre forme classiche della colpa?**
+🔹 **Negligenza**: mancanza di attenzione.
+🔹 **Imprudenza**: agire in modo non sicuro.
+🔹 **Imperizia**: mancanza di competenza tecnica.
+
+---
+
+**❓ Cosa prevede l’art. 2236 c.c. per il prestatore d’opera?**
+🔹 Se l’opera implica **problemi tecnici di speciale difficoltà**, il prestatore risponde **solo per dolo o colpa grave**.
+
+---
+
+**❓ Quando si applica l’art. 2236 allo sviluppo software?**
+🔹 In progetti **tecnicamente complessi o innovativi**, lo sviluppatore può essere esente da responsabilità, salvo dolo o colpa grave.
+
+---
+
+**❓ Cosa disciplina l’art. 1667 c.c.?**
+🔹 La **garanzia per vizi e difformità** dell’opera nel contratto di appalto.
+
+---
+
+**❓ Quando l’appaltatore non è tenuto alla garanzia secondo l’art. 1667?**
+🔹 Se il committente ha accettato l’opera **conoscendo i vizi**, a meno che l’appaltatore non li abbia **taciuti in malafede**.
+
+---
+
+**❓ Entro quanto tempo devono essere denunciati i vizi?**
+🔹 **60 giorni** dalla scoperta.
+🔹 L’azione si prescrive in **2 anni** dalla consegna dell’opera.
+
+---
+
+**❓ Cos’è una “difformità” in un’opera?**
+🔹 Quando l’opera **non corrisponde tecnicamente** a quanto previsto dal contratto o progetto.
+
+---
+
+**❓ Cos’è un “vizio” in un’opera?**
+🔹 Difetto **nascosto o occulto** causato da violazioni delle regole dell’arte o errori nell’esecuzione.
+
+---
+
+**❓ Quali rimedi ha il committente in caso di vizi?**
+🔹 Chiedere:
+• eliminazione dei vizi a spese dell’appaltatore,
+• **riduzione del prezzo**,
+• oppure **risoluzione del contratto** (se i vizi rendono l’opera inutilizzabile).
+
+---
