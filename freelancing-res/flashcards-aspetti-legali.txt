@@ -602,3 +602,105 @@ A:
 **Risposta:** Se si avvale dell’opera di terzi, risponde anche per i loro fatti dolosi o colposi, salvo diversa volontà delle parti.
 
 ---
+
+### 📘 **Flashcard 1**
+
+**Domanda:** Chi sono le parti di un contratto di licenza d'uso software?
+**Risposta:** Il **Licenziante** (che concede la licenza) e il **Licenziatario** (che riceve il diritto d’uso del software).
+
+---
+
+### 📘 **Flashcard 2**
+
+**Domanda:** Qual è l’oggetto principale del contratto di licenza d’uso software?
+**Risposta:** Il **diritto di utilizzare il software** secondo i termini concordati.
+
+---
+
+### 📘 **Flashcard 3**
+
+**Domanda:** Come funziona il **canone** in una licenza con pagamento periodico?
+**Risposta:** Il licenziatario paga una somma **ricorrente** per mantenere il diritto d’uso del software.
+
+---
+
+### 📘 **Flashcard 4**
+
+**Domanda:** Quali tipi di **durata** può avere un contratto di licenza?
+**Risposta:** **A tempo determinato o indeterminato**, con possibilità di **recesso o rinnovo**.
+
+---
+
+### 📘 **Flashcard 5**
+
+**Domanda:** Quali sono alcune **limitazioni d’uso** tipiche in una licenza software?
+**Risposta:** Numero di utenti, tipo di dispositivi, uso commerciale o personale, ecc.
+
+---
+
+### 📘 **Flashcard 6**
+
+**Domanda:** Quali sono gli **obblighi principali del licenziatario**?
+**Risposta:** Pagare il canone, rispettare le condizioni d’uso, mantenere la riservatezza.
+
+---
+
+### 📘 **Flashcard 7**
+
+**Domanda:** Cosa deve garantire il **licenziante**?
+**Risposta:** Il diritto d’uso del software, eventualmente con **supporto tecnico o aggiornamenti**.
+
+---
+
+### 📘 **Flashcard 8**
+
+**Domanda:** Qual è la responsabilità delle parti in un contratto di licenza?
+**Risposta:** Entrambe le parti sono responsabili per **violazioni contrattuali**.
+
+---
+
+### 📘 **Flashcard 9**
+
+**Domanda:** Cosa include un esempio concreto di contratto di licenza?
+**Risposta:** Clausole come: licenza, copyright, proprietà, garanzie, responsabilità, cessazione, legge applicabile.
+
+---
+
+### 📘 **Flashcard 10**
+
+**Domanda:** Quali sono i principali **tipi di licenza software**?
+**Risposta:**
+
+* **Perpetua** (uso illimitato nel tempo)
+* **Temporanea** (uso per un periodo definito)
+* **A abbonamento** (pagamento periodico per accesso continuativo)
+
+---
+
+### 📘 **Flashcard 11**
+
+**Domanda:** Cos'è una **licenza SaaS**?
+**Risposta:** È una licenza per l’uso di software **cloud-based**, accessibile via Internet come servizio.
+
+---
+
+### 📘 **Flashcard 12**
+
+**Domanda:** Cos’è una **licenza a strappo**?
+**Risposta:** È una licenza **accettata automaticamente** al momento dell’apertura o installazione del software (es. “shrink-wrap license”).
+
+---
+
+### 📘 **Flashcard 13**
+
+**Domanda:** Cos’è una **licenza OEM**?
+**Risposta:** Licenza concessa per software **preinstallato** su dispositivi hardware, solitamente non trasferibile.
+
+---
+
+### 📘 **Flashcard 14**
+
+**Domanda:** Cosa distingue una **licenza open source**?
+**Risposta:** Il software può essere **modificato, studiato e redistribuito liberamente**, secondo specifiche licenze (es. GPL, MIT).
+
+---
