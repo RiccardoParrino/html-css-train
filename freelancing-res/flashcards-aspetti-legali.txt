@@ -780,3 +780,50 @@ A:
 • oppure **risoluzione del contratto** (se i vizi rendono l’opera inutilizzabile).
 
 ---
+
+### 🔹 Flashcard 1
+
+**Q:** Cosa implica l'**Ipotesi A** in merito alla titolarità del codice sorgente?
+**A:** Il Fornitore cede al Committente il codice sorgente e la documentazione tecnica, trasferendo anche ogni diritto patrimoniale. Il Committente può modificare ed estendere il software liberamente.
+
+---
+
+### 🔹 Flashcard 2
+
+**Q:** Quali obblighi ha il Fornitore nell’**Ipotesi A**?
+**A:** Deve tenere indenne il Committente da azioni di terzi relative a diritti sul software e intervenire nei giudizi, anticipando le spese.
+
+---
+
+### 🔹 Flashcard 3
+
+**Q:** Cosa distingue l’**Ipotesi B** dall’Ipotesi A?
+**A:** Anche in Ipotesi B il codice sorgente è ceduto, ma il Committente **non può cederlo a terzi** e può usarlo **solo internamente**. Il Fornitore mantiene i diritti patrimoniali e morali.
+
+---
+
+### 🔹 Flashcard 4
+
+**Q:** Cosa riceve il Committente nell’**Ipotesi C**?
+**A:** Solo il diritto di utilizzo della **versione oggetto** del software. Il codice sorgente resta esclusivamente del Fornitore, che conserva tutti i diritti patrimoniali.
+
+---
+
+### 🔹 Flashcard 5
+
+**Q:** Qual è la particolarità dell’**Ipotesi C1** rispetto alla C?
+**A:** Il Fornitore si impegna a **non cedere il software a terzi** (né sorgente né oggetto) per un determinato periodo di tempo.
+
+---
+
+### 🔹 Flashcard 6
+
+**Q:** Cos’è previsto dall’**Ipotesi D (Code Escrow)**?
+**A:** Il Fornitore conserva la titolarità del codice sorgente, ma lo deposita presso un terzo che lo consegna al Committente in caso di fallimento o cessazione dell’attività.
+
+---
+
+### 🔹 Flashcard 7
+
+**Q:** Quanto tempo conserva il terzo il codice sorgente nell’Ipotesi D?
+**A:** Per un periodo determinato (es. … anni), dopo il quale è tenuto a distruggerlo.
