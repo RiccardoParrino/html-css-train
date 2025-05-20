@@ -74,3 +74,182 @@
 
 **Q: Cosa implica lo sviluppo di un nuovo prodotto?**
 **A:** Ricerca di mercato, ideazione, sviluppo, test, lancio e monitoraggio per soddisfare nuovi bisogni del mercato.
+
+## 🔶 **SEZIONE: Branding e Gestione del Brand**
+
+### 📘 Flashcard 1
+
+**Q: Quali sono i benefici di un brand per l'azienda?**
+**A:**
+
+* Aumenta il valore dell’azienda
+* Favorisce la preferenza e la fedeltà dei consumatori
+* Crea barriere all’ingresso
+* Permette margini di profitto più alti
+* Base per estensioni del brand
+
+---
+
+### 📘 Flashcard 2
+
+**Q: Quali sono i benefici del brand per i consumatori?**
+**A:**
+
+* Comunica caratteristiche e benefici
+* Riduce il rischio percepito nell'acquisto
+* Semplifica la decisione di acquisto
+* Ha valore simbolico
+
+---
+
+### 📘 Flashcard 3
+
+**Q: Cos’è il brand equity?**
+**A:** Il valore percepito del brand sul mercato; alto brand equity si traduce in maggiori vendite e profitti.
+
+---
+
+### 📘 Flashcard 4
+
+**Q: Quali sono le strategie di naming del brand?**
+**A:**
+
+* **Family brand**: stesso nome per tutti i prodotti
+* **Individual brand**: nomi diversi per ogni prodotto
+* **Combination**: mix tra family e individual brand
+
+---
+
+### 📘 Flashcard 5
+
+**Q: Cosa comprende lo sviluppo di un brand?**
+**A:**
+
+* Brand domain
+* Brand heritage
+* Brand assets
+* Brand personality
+* Brand reflection
+* Brand values
+
+---
+
+### 📘 Flashcard 6
+
+**Q: Che cos’è la brand reflection?**
+**A:** È il modo in cui il consumatore si vede usando il brand (legame con l’identità personale).
+
+---
+
+### 📘 Flashcard 7
+
+**Q: Quali sono le strategie per la gestione del brand?**
+**A:**
+
+* Brand extension
+* Brand stretching
+* Strategie di branding globale
+
+---
+
+## 🔷 **SEZIONE: Gestione del Portafoglio Prodotti e Brand**
+
+### 📘 Flashcard 8
+
+**Q: Cos’è una product line?**
+**A:** Un gruppo di prodotti correlati per funzioni e benefici offerti.
+
+---
+
+### 📘 Flashcard 9
+
+**Q: Cos’è il portfolio planning?**
+**A:** Il processo di gestione strategica di gruppi di brand e linee di prodotto.
+
+---
+
+### 📘 Flashcard 10
+
+**Q: A cosa serve la matrice BCG (Boston Consulting Group)?**
+**A:** Aiuta a decidere su mix e linee di prodotto tramite due variabili: quota di mercato e crescita del mercato.
+
+---
+
+## 🟣 **SEZIONE: Ciclo di Vita del Prodotto (PLC)**
+
+### 📘 Flashcard 11
+
+**Q: Quali sono le fasi del ciclo di vita del prodotto?**
+**A:**
+
+1. Introduzione
+2. Crescita
+3. Maturità
+4. Declino
+
+---
+
+## 🟢 **SEZIONE: Nuovo Sviluppo del Prodotto**
+
+### 📘 Flashcard 12
+
+**Q: Quali sono le quattro categorie di nuovi prodotti?**
+**A:**
+
+* Sostituti di prodotti esistenti
+* Aggiunte a linee esistenti
+* Nuove linee di prodotto
+* Prodotti completamente nuovi (new-to-the-world)
+
+---
+
+### 📘 Flashcard 13
+
+**Q: Quali sono le fasi del processo di sviluppo di un nuovo prodotto?**
+**A:**
+
+1. Generazione idee
+2. Screening
+3. Test del concetto
+4. Analisi economica
+5. Sviluppo prodotto
+6. Test di mercato
+7. Commercializzazione
+
+---
+
+## 🟠 **SEZIONE: Servizi, Relazioni ed Esperienze**
+
+### 📘 Flashcard 14
+
+**Q: Quali sono le quattro caratteristiche distintive dei servizi?**
+**A:**
+
+* **Intangibilità**
+* **Inseparabilità**
+* **Variabilità**
+* **Deperibilità**
+
+---
+
+## 🔵 **SEZIONE: Comunicazione e Distribuzione**
+
+### 📘 Flashcard 15
+
+**Q: Quali sono i tipi di comunicazione con il cliente?**
+**A:**
+
+* **Mass Communication**
+* **Direct Communication** (email marketing, SEO, inbound)
+* **Digital Marketing**
+
+---
+
+### 📘 Flashcard 16
+
+**Q: Quali sono i vantaggi della comunicazione diretta (es. email, SEO)?**
+**A:**
+
+* Strategia misurabile
+* Adatta al marketing inbound
+* Personalizzabile per il target
