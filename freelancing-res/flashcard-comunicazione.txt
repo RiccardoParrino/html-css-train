@@ -253,3 +253,82 @@
 * Strategia misurabile
 * Adatta al marketing inbound
 * Personalizzabile per il target
+
+#### **Flashcard 1**
+
+**Q:** What is *intangibility* in services?
+**A:** Services are deeds, performances, or efforts—not physical objects—and thus cannot be seen, touched, or owned. This makes them difficult to evaluate before purchase.
+
+---
+
+#### **Flashcard 2**
+
+**Q:** What are the implications of service intangibility for consumers?
+**A:** Consumers may find it difficult to evaluate services pre-purchase; some services have *credence properties*—they can’t even be evaluated after consumption.
+
+---
+
+#### **Flashcard 3**
+
+**Q:** What is meant by *non-ownership* in services?
+**A:** Customers pay for use or performance, not for ownership. For example, hiring a car or undergoing surgery.
+
+---
+
+#### **Flashcard 4**
+
+**Q:** Define *inseparability* in services.
+**A:** Services are produced and consumed simultaneously, often requiring the presence of the customer during delivery.
+
+---
+
+#### **Flashcard 5**
+
+**Q:** Why is the conduct of service providers crucial in service delivery?
+**A:** Customer perception is shaped not just by the technical delivery but also by provider behavior (e.g., friendliness, courtesy).
+
+---
+
+#### **Flashcard 6**
+
+**Q:** How do other consumers affect service experience?
+**A:** The presence and behavior of other consumers can influence individual service enjoyment.
+
+---
+
+#### **Flashcard 7**
+
+**Q:** What does *variability* mean in services?
+**A:** Service quality can vary significantly, making standardization and consistent delivery difficult.
+
+---
+
+#### **Flashcard 8**
+
+**Q:** Define *perishability* in the context of services.
+**A:** Services cannot be stored for future use. Unused capacity (like an empty hotel room) is lost revenue.
+
+---
+
+#### **Flashcard 9**
+
+**Q:** What challenge does perishability create for service providers?
+**A:** They must manage fluctuating demand and supply, especially during peak times.
+
+---
+
+### 🛠 **Managing Service Enterprises**
+
+---
+
+#### **Flashcard 10**
+
+**Q:** What are the four key issues in managing service enterprises?
+**A:** Physical evidence, people, process, and service branding.
+
+---
+
+#### **Flashcard 11**
+
+**Q:** What are the four elements of effective service branding?
+**A:** Distinctiveness, relevance, memorability, and flexibility.
