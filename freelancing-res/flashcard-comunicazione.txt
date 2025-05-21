@@ -427,3 +427,155 @@ A: Quando il personale non è selezionato, formato o motivato adeguatamente.
 **🔹 Flashcard 15**
 **Q: Cos’è l’*Exaggerated promises barrier*?**
 A: Quando le promesse fatte ai clienti sono eccessive rispetto a ciò che viene realmente offerto.
+
+### 🔷 **Meeting Customer Expectations**
+
+**Flashcard 1**
+**Q: Qual è la chiave per offrire qualità nei servizi?**
+A: Comprendere e soddisfare le aspettative del cliente, valutando sia l’esito che l’esperienza del servizio.
+
+**Flashcard 2**
+**Q: Quali sono le 5 dimensioni della qualità del servizio?**
+A:
+
+1. Affidabilità (Reliability)
+2. Fiducia (Assurance)
+3. Reattività (Responsiveness)
+4. Empatia (Empathy)
+5. Aspetti tangibili (Tangibles)
+
+---
+
+### 🔷 **Service Recovery**
+
+**Flashcard 3**
+**Q: Cos’è una strategia di *service recovery*?**
+A: È una strategia per risolvere problemi di servizio, ripristinare la fiducia del cliente e migliorare il sistema per evitare errori futuri.
+
+**Flashcard 4**
+**Q: Qual è il primo passo in una strategia di recupero del servizio?**
+A: Implementare un sistema di tracciamento per identificare i fallimenti.
+
+---
+
+### 🔷 **Relationship Marketing**
+
+**Flashcard 5**
+**Q: Perché la *relationship marketing* è importante nei servizi?**
+A: Perché rafforza il legame cliente-fornitore, riduce il bisogno di cercare alternative e favorisce la fidelizzazione.
+
+**Flashcard 6**
+**Q: Quali sono i livelli della "Loyalty Ladder"?**
+A:
+
+1. Prospect
+2. Customer
+3. Client
+4. Supporter
+5. Advocate
+6. Partner
+
+---
+
+### 🔷 **Experiential Marketing**
+
+**Flashcard 7**
+**Q: Cos’è l’*experiential marketing*?**
+A: È un approccio che crea esperienze coinvolgenti per il cliente, invece di limitarsi alla vendita del prodotto.
+
+**Flashcard 8**
+**Q: Dove si applica frequentemente l’*experiential marketing*?**
+A: Nei negozi fisici, trasformandoli in luoghi di esperienza, non solo di vendita.
+
+---
+
+### 🔷 **Marketing nelle organizzazioni non profit**
+
+**Flashcard 9**
+**Q: Qual è l'obiettivo principale delle organizzazioni non profit?**
+A: Non il profitto, ma uno scopo sociale o educativo.
+
+**Flashcard 10**
+**Q: Quali sono alcune caratteristiche del marketing non profit?**
+A:
+
+* Educazione vs bisogni immediati
+* Pubblici multipli
+* Misurazione del successo difficile
+* Scrutinio pubblico
+* Obiettivi contrastanti
+
+---
+
+### 🔷 **Value Through Pricing**
+
+**Flashcard 11**
+**Q: Quali sono i 3 metodi di pricing secondo Shapiro e Jackson?**
+A:
+
+1. Cost-based
+2. Competitor-oriented
+3. Market-led
+
+**Flashcard 12**
+**Q: Cos’è il *cost-based pricing*?**
+A: Prezzo basato sui costi aziendali, utile per stimare il prezzo minimo per raggiungere il pareggio.
+
+**Flashcard 13**
+**Q: Quali sono i limiti del *cost-based pricing*?**
+A:
+
+* Fa salire i prezzi quando scendono le vendite
+* Presume vendite prima di fissare il prezzo
+* Ignora la percezione del valore del cliente
+
+**Flashcard 14**
+**Q: Cos’è il *competitor-oriented pricing*?**
+A: Prezzo basato sui livelli di prezzo dei concorrenti; può includere imitazione, prezzo corrente o gare d’appalto.
+
+**Flashcard 15**
+**Q: Cos’è il *market-led pricing*?**
+A: Fissare il prezzo in base al valore percepito dal cliente. Tecniche: analisi trade-off, sperimentazione, EVC (Economic Value to Customer).
+
+---
+
+### 🔷 **Altri fattori che influenzano il prezzo**
+
+**Flashcard 16**
+**Q: Quali strategie influenzano il prezzo?**
+A:
+
+* Strategia di posizionamento
+* Lancio nuovo prodotto
+* Strategia di linea di prodotto
+* Strategia competitiva (Build, Hold, Harvest, Reposition)
+* Strategia di canale
+* Strategia internazionale
+
+---
+
+### 🔷 **Gestione delle variazioni di prezzo**
+
+**Flashcard 17**
+**Q: Cosa deve analizzare un'azienda quando i concorrenti cambiano i prezzi?**
+A:
+
+* Quando seguire
+* Quando ignorare
+* Quali tattiche usare
+
+---
+
+### 🔷 **Customer Value through Pricing**
+
+**Flashcard 18**
+**Q: Cos’è il *yield management*?**
+A: Gestione della domanda per massimizzare entrate, adattando il prezzo in base alla domanda prevista.
+
+**Flashcard 19**
+**Q: Cos’è il *dynamic pricing*?**
+A: Prezzi regolati continuamente in base alla domanda. Es: voli Ryanair più cari nei periodi di punta.
+
+**Flashcard 20**
+**Q: Perché il controllo dei costi è cruciale per i leader di prezzo basso?**
+A: Perché influisce direttamente sui margini di profitto.
