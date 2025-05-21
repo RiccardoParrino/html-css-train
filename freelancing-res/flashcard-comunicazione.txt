@@ -579,3 +579,101 @@ A: Prezzi regolati continuamente in base alla domanda. Es: voli Ryanair più car
 **Flashcard 20**
 **Q: Perché il controllo dei costi è cruciale per i leader di prezzo basso?**
 A: Perché influisce direttamente sui margini di profitto.
+
+### **Flashcard 1**
+
+**Q: What is market segmentation?**
+A: The identification of individuals or organizations with similar characteristics that have significant implications for marketing strategy.
+
+---
+
+### **Flashcard 2**
+
+**Q: Why is market segmentation important for businesses?**
+A: It allows for better customer need matching, improved retention, growth opportunities, enhanced profitability, more effective communication targeting, and potential for segment dominance.
+
+---
+
+### **Flashcard 3**
+
+**Q: What are the main categories of consumer segmentation criteria?**
+A: Behavioural, psychographic, and profile variables.
+
+---
+
+### **Flashcard 4**
+
+**Q: What criteria are used to segment organizational markets?**
+A: Organizational size, industry, geographic location, choice criteria, and purchasing organization.
+
+---
+
+### **Flashcard 5**
+
+**Q: List the five criteria for successful segmentation.**
+A:
+
+1. Effective
+2. Measurable
+3. Accessible
+4. Actionable
+5. Profitable
+
+---
+
+### **Flashcard 6**
+
+**Q: What is target marketing?**
+A: The process of selecting specific segments to serve based on evaluation using segmentation criteria.
+
+---
+
+### **Flashcard 7**
+
+**Q: What are the four target marketing strategies?**
+A:
+
+1. Undifferentiated marketing
+2. Differentiated marketing
+3. Focused marketing
+4. Customized marketing
+
+---
+
+### **Flashcard 8**
+
+**Q: What is customized marketing?**
+A: A marketing approach that tailors a unique marketing mix for each individual customer, often used in B2B or service industries.
+
+---
+
+### **Flashcard 9**
+
+**Q: Define positioning.**
+A: Designing the company's offering so that it occupies a meaningful and distinct position in the target customer’s mind.
+
+---
+
+### **Flashcard 10**
+
+**Q: What are the key variables in developing a positioning strategy?**
+A: Customers (what they value), competitors (their offerings), and the company (its capabilities).
+
+---
+
+### **Flashcard 11**
+
+**Q: What are the four criteria for successful positioning?**
+A:
+
+1. Clarity
+2. Consistency
+3. Credibility
+4. Competitiveness
+
+---
+
+### **Flashcard 12**
+
+**Q: What is repositioning?**
+A: Changing the target market, the product's differential advantage, or both, often in response to market changes or poor performance.
