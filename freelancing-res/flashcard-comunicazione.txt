@@ -677,3 +677,84 @@ A:
 
 **Q: What is repositioning?**
 A: Changing the target market, the product's differential advantage, or both, often in response to market changes or poor performance.
+
+### 📘 Flashcards – *The Nature of Marketing* (Fahy & Jobber, Cap. 1)
+
+---
+
+**Q: Qual è, secondo Peter Drucker, lo scopo principale del business?**
+**A:** Creare e mantenere clienti. Le due funzioni centrali del business sono marketing e innovazione.
+
+---
+
+**Q: Qual è la funzione di base del marketing secondo Drucker?**
+**A:** Attrarre e trattenere clienti in modo profittevole.
+
+---
+
+**Q: Perché è importante trattenere i clienti esistenti?**
+**A:** Perché acquisire nuovi clienti può costare fino a sei volte di più che mantenere quelli esistenti.
+
+---
+
+**Q: Qual è una definizione moderna di marketing?**
+**A:** Il raggiungimento degli obiettivi aziendali soddisfacendo e superando i bisogni dei clienti meglio della concorrenza.
+
+---
+
+**Q: Quali sono le tre condizioni necessarie per applicare il concetto di marketing?**
+**A:**
+
+1. Orientamento alla soddisfazione del cliente.
+2. Sforzo integrato tra tutti i reparti aziendali.
+3. Credere che gli obiettivi aziendali si raggiungono tramite clienti soddisfatti.
+
+---
+
+**Q: Qual è la differenza tra azienda inward-looking e outward-looking?**
+**A:**
+
+* Inward-looking: focus sull’efficienza interna e produzione.
+* Outward-looking: focus sul cliente e su ciò che valorizza, lavorando “da fuori verso dentro”.
+
+---
+
+**Q: Da cosa è composto il concetto di marketing?**
+**A:**
+
+1. Orientamento al cliente
+2. Sforzo integrato
+3. Raggiungimento degli obiettivi aziendali
+
+---
+
+**Q: Come si definisce il valore per il cliente?**
+**A:** Il valore percepito è il risultato tra benefici percepiti e sacrifici percepiti (es. costo, tempo, sforzo).
+
+---
+
+**Q: Quali sono le quattro forme di valore per il cliente?**
+**A:**
+
+1. **Price value** – percezione di convenienza economica
+2. **Performance value** – prestazioni e qualità percepita
+3. **Emotional value** – connessione emotiva e differenziazione simbolica
+4. **Relational value** – qualità della relazione e del servizio, CRM
+
+---
+
+**Q: Cos'è una customer value proposition (CVP)?**
+**A:** È la proposta di valore che distingue un’azienda e la rende motivo di scelta e fidelizzazione da parte del cliente.
+
+---
+
+**Q: Come si può definire il marketing in termini di valore?**
+**A:** Il marketing è la **consegna di valore al cliente in modo profittevole**.
+
+---
+
+**Q: Qual è la differenza tra orientamento al marketing e orientamento al prodotto?**
+**A:**
+
+* **Orientamento al marketing** = focus sul cliente (outward-looking)
+* **Orientamento al prodotto** = focus sulla produzione (inward-looking)
