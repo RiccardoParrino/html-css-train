@@ -758,3 +758,163 @@ A: Changing the target market, the product's differential advantage, or both, of
 
 * **Orientamento al marketing** = focus sul cliente (outward-looking)
 * **Orientamento al prodotto** = focus sulla produzione (inward-looking)
+
+### 🔄 **Orientamento al mercato vs. orientamento interno**
+
+**Q: Quali valori caratterizzano un'azienda orientata al mercato?**
+**A:**
+
+* Centralità del cliente
+* Conoscenza dei criteri di scelta del cliente
+* Segmentazione per differenze tra clienti
+* Investimento in ricerca di mercato
+* Apertura al cambiamento
+* Studio della concorrenza
+* Il marketing è un investimento
+* Innovazione premiata
+* Ricerca di mercati latenti
+* Rapidità di azione
+* Ricerca del vantaggio competitivo
+
+---
+
+**Q: Quali valori caratterizzano un'azienda orientata internamente?**
+**A:**
+
+* Convenienza interna al primo posto
+* Si presume che prezzo e performance bastino per vendere
+* Basata su opinioni non verificate
+* Attaccamento allo status quo
+* Ignora la concorrenza
+* Il marketing è visto come un lusso
+* Innovazione penalizzata
+* Nessun cambiamento
+* Nessuna urgenza
+* Imitazione dei concorrenti
+
+---
+
+### 📈 **Pianificazione e strategia di marketing**
+
+**Q: Che cos’è la pianificazione di marketing?**
+**A:**
+È il processo con cui l'azienda analizza l’ambiente e le proprie capacità, prende decisioni di marketing e le attua.
+
+---
+
+**Q: Quali sono le 3 domande chiave nella pianificazione di marketing?**
+**A:**
+
+1. Dove siamo ora?
+2. Dove vogliamo andare?
+3. Come ci arriviamo?
+
+---
+
+**Q: Quali sono le fasi della pianificazione di marketing?**
+**A:**
+
+1. Missione aziendale e strategia
+2. Audit di marketing
+3. Obiettivi di marketing
+4. Strategia di marketing
+5. Azioni di marketing
+6. Valutazione delle performance
+
+---
+
+### 🎯 **Missione aziendale e strategia**
+
+**Q: Cos’è la missione aziendale?**
+**A:**
+Una dichiarazione ampia e duratura dello scopo che distingue l’azienda dalle altre.
+
+---
+
+**Q: Quali strategie competitive esistono secondo il modello presentato?**
+**A:**
+
+* Leadership di costo
+* Differenziazione
+* Focus di costo
+* Focus di differenziazione
+
+---
+
+### 🔍 **Audit e analisi SWOT**
+
+**Q: Cos’è l’audit di marketing?**
+**A:**
+È l’analisi della situazione attuale dell’azienda, punto di partenza per la pianificazione.
+
+---
+
+**Q: A cosa serve l’analisi SWOT?**
+**A:**
+Aiuta a comprendere meglio l’azienda, pianificare in modo efficace e affrontare le sfide future.
+
+---
+
+**Q: Cosa analizza l’analisi SWOT?**
+**A:**
+
+* **Strengths:** punti di forza (es. brand forte, buon servizio)
+* **Weaknesses:** debolezze (es. costi alti, poca promozione)
+* **Opportunities:** opportunità esterne (es. nuovi mercati)
+* **Threats:** minacce esterne (es. nuove leggi, concorrenti)
+
+---
+
+### 🧭 **Obiettivi di marketing**
+
+**Q: Da cosa derivano gli obiettivi di marketing?**
+**A:**
+Dall’audit di marketing e dall’analisi SWOT.
+
+---
+
+**Q: Cosa rappresenta la matrice di Ansoff?**
+**A:**
+Le 4 opzioni di crescita:
+
+1. Penetrazione del mercato
+2. Sviluppo del prodotto
+3. Sviluppo del mercato
+4. Diversificazione
+
+---
+
+**Q: Cosa significa che un obiettivo deve essere SMART?**
+**A:**
+Specifico, Misurabile, Attuabile, Realistico, Tempificato.
+
+---
+
+### 🧠 **Strategia, azioni e misurazione**
+
+**Q: Quali sono gli elementi base della strategia di marketing?**
+**A:**
+Segmentazione, targeting, posizionamento.
+
+---
+
+**Q: Quali sono le due aree chiave dei marketing metrics?**
+**A:**
+
+1. Efficacia operativa delle attività di marketing
+2. Impatto sul risultato economico
+
+---
+
+**Q: Quali sono alcuni indicatori comuni per valutare le performance di marketing?**
+**A:**
+
+* Profitto
+* Vendite (valore/volume)
+* Margine lordo
+* Awareness (notorietà)
+* Quota di mercato
+* Numero di nuovi prodotti
+* Soddisfazione e insoddisfazione del cliente
+* Prezzo relativo
+* Distribuzione/Disponibilità
