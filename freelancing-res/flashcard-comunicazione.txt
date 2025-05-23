@@ -1315,3 +1315,139 @@ Segmentazione, targeting, posizionamento.
 
 **Q:** Why must producers consider channel intermediaries?
 **A:** Because intermediaries facilitate product distribution and influence customer access and experience.
+
+#### Flashcard 1
+
+**Q:** Who are digital natives and digital immigrants?
+**A:**
+
+* **Digital natives:** Born in the digital era, naturally comfortable with technology.
+* **Digital immigrants:** Born before the digital era, had to adapt to using technology.
+
+---
+
+#### Flashcard 2
+
+**Q:** What are the four types of digital communications?
+**A:**
+
+* B2C: Business to Consumer
+* B2B: Business to Business
+* C2B: Consumer to Business
+* C2C: Consumer to Consumer
+
+---
+
+#### Flashcard 3
+
+**Q:** What user features enable interaction in the digital environment?
+**A:** Profile pages, social networks (likes, friends), rich content posting (photos, videos, blogs), public APIs, mash-ups.
+
+---
+
+#### Flashcard 4
+
+**Q:** What are the five objectives of digital marketing (5S model)?
+**A:**
+
+* **Sell:** Increase sales
+* **Serve:** Add customer value
+* **Speak:** Build dialogue
+* **Save:** Reduce costs
+* **Sizzle:** Enhance the brand online
+
+---
+
+#### Flashcard 5
+
+**Q:** What are key elements of effective web design?
+**A:** Presentation, Usability, Navigation, Testing, Maintenance, Content strategy (Behavioral, Essential, Strategic, Targeted)
+
+---
+
+#### Flashcard 6
+
+**Q:** What is Search Engine Optimization (SEO)?
+**A:** Optimizing website content to achieve higher rankings in organic search engine results.
+
+---
+
+#### Flashcard 7
+
+**Q:** How does the internet support market research?
+**A:** It facilitates collection of **primary** and **secondary** data through digital tools and user activity analysis.
+
+---
+
+#### Flashcard 8
+
+**Q:** What is netnography?
+**A:** An online ethnographic method used to study digital communities and behaviors without researcher interference.
+
+---
+
+#### Flashcard 9
+
+**Q:** What is netiquette and why is it important?
+**A:** It’s the code of online behavior. Important to maintain respectful, ethical, and professional digital communication.
+
+---
+
+#### Flashcard 10
+
+**Q:** How does social media differ from traditional media?
+**A:** It's interactive, low-cost, and transforms users from consumers into content creators and publishers.
+
+---
+
+#### Flashcard 11
+
+**Q:** What are the core principles of social media?
+**A:** Reach, Accessibility, Usability, Immediacy, Permanence
+
+---
+
+#### Flashcard 12
+
+**Q:** What are general metrics used in social media marketing?
+**A:**
+
+* Bounce rate
+* Conversion rate
+* Ad clicks
+* Cost per click
+* ROI
+* Time on page
+* Average session duration
+* Page views per session
+* Click through rate
+* Cost per conversion
+* Dimensions and metrics
+
+---
+
+#### Flashcard 13
+
+**Q:** What are the three types of social media metrics?
+**A:**
+
+* **Activity metrics:** Input
+* **Interaction metrics:** Response
+* **Performance metrics:** Outcome
+
+---
+
+#### Flashcard 14
+
+**Q:** What are some future tools in digital marketing?
+**A:**
+
+* **Augmented Reality (AR):** Overlays reality with interactive content
+* **Near Field Communication (NFC):** Technology for quick data sharing, considered a QR code replacement
+
+---
+
+#### Flashcard 15
+
+**Q:** Why is staying updated with digital trends essential for marketers?
+**A:** Because new tools can revolutionize marketing, but they must be evaluated for ROI and brand fit before adoption.
