@@ -1204,3 +1204,114 @@ Segmentazione, targeting, posizionamento.
 
 **Q:** What is sales management?
 **A:** (Also not defined in your text, but generally involves planning, directing, and controlling sales force activities to meet objectives.)
+
+#### Flashcard 1
+
+**Q:** What are the main types of consumer distribution channels?
+**A:**
+
+* Producer → Consumer
+* Producer → Retailer → Consumer
+* Producer → Wholesaler → Retailer → Consumer
+* Producer → Agent → Wholesaler → Retailer → Consumer
+
+---
+
+#### Flashcard 2
+
+**Q:** What are typical business-to-business distribution channels?
+**A:**
+
+* Producer → Business customer
+* Producer → Agent → Business customer
+* Producer → Distributor → Business customer
+* Producer → Agent → Distributor → Business customer
+
+---
+
+#### Flashcard 3
+
+**Q:** Why are industrial and service channels typically shorter than consumer channels?
+**A:** Due to fewer customers, geographical concentration, product complexity, and inseparability of service production and consumption.
+
+---
+
+#### Flashcard 4
+
+**Q:** What are the main classes of marketing channel integration?
+**A:**
+
+* Conventional marketing channels
+* Franchising
+* Channel ownership
+* Channel management
+
+---
+
+#### Flashcard 5
+
+**Q:** What does channel strategy involve?
+**A:** Selecting the best distribution channel, level of distribution intensity, and degree of channel integration.
+
+---
+
+#### Flashcard 6
+
+**Q:** What are the key decisions in channel management?
+**A:** Selection, motivation, training, evaluation of channel members, and conflict management.
+
+---
+
+#### Flashcard 7
+
+**Q:** Name major types of retail stores.
+**A:** Supermarkets, Department stores, Specialty shops, Discount houses, Category killers, Convenience stores, Catalogue stores
+
+---
+
+#### Flashcard 8
+
+**Q:** Name major non-store retailing formats.
+**A:** Mail order, Automatic vending, Online retailing
+
+---
+
+#### Flashcard 9
+
+**Q:** What are key retail marketing decisions?
+**A:** Retail positioning, Store location, Product assortment, Price, Store atmosphere
+
+---
+
+#### Flashcard 10
+
+**Q:** What are the components of physical distribution?
+**A:** Customer service, Order processing, Inventory control, Warehousing, Transportation, Materials handling
+
+---
+
+### 🟩 **Chapter 10: Mass Communications Techniques**
+
+#### Flashcard 11
+
+**Q:** What are the four key marketing activities?
+**A:**
+
+* Generating customer insights
+* Developing differential products and services
+* Pricing them correctly
+* Communicating with customers
+
+---
+
+#### Flashcard 12
+
+**Q:** What is a channel of distribution?
+**A:** A supply chain that moves products from producers to ultimate customers.
+
+---
+
+#### Flashcard 13
+
+**Q:** Why must producers consider channel intermediaries?
+**A:** Because intermediaries facilitate product distribution and influence customer access and experience.
