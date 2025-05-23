@@ -994,3 +994,213 @@ Segmentazione, targeting, posizionamento.
 **Flashcard 13**
 **Q:** What has contributed to the fast growth of direct response television?
 **A:** Its ability to combine broad reach with immediate response mechanisms.
+
+
+### 🔹 **Flashcard 1**
+
+**Q:** What are the seven main elements of the promotional mix?
+**A:** Advertising, Sales promotion, Publicity, Sponsorship, Direct marketing, Digital marketing, Personal selling.
+
+---
+
+### 🔹 **Flashcard 2**
+
+**Q:** Why is consistency important in the promotional mix?
+**A:** To ensure alignment with branding, pricing, and distribution, and to maintain a consistent market positioning.
+
+---
+
+### 🔹 **Flashcard 3**
+
+**Q:** What is Integrated Marketing Communications (IMC)?
+**A:** The coordination of all promotional tools to ensure consistency and complementarity in messaging.
+
+---
+
+### 🔹 **Flashcard 4**
+
+**Q:** Name five key considerations when selecting a promotional mix.
+**A:**
+
+1. Resource availability and costs
+2. Market size and concentration
+3. Customer information needs
+4. Product characteristics
+5. Push vs. pull strategies
+
+---
+
+### 🔹 **Flashcard 5**
+
+**Q:** What is the difference between a push and a pull strategy?
+**A:**
+
+* **Push** targets intermediaries using personal selling and trade promotions.
+* **Pull** targets consumers directly to create demand using advertising and consumer promotions.
+
+---
+
+### 🔹 **Flashcard 6**
+
+**Q:** What are the main stages in developing an integrated communications campaign?
+**A:**
+
+1. Marketing strategy
+2. Positioning strategy
+3. Communications decisions
+4. Execute strategy
+5. Evaluate strategy
+
+---
+
+### 🔹 **Flashcard 7**
+
+**Q:** What are the key media channels used in advertising?
+**A:** Television, Radio, Newspapers, Magazines (consumer and business), Outdoor, Internet, Cinema, Exhibitions, Product placement, Ambient.
+
+---
+
+### 🔹 **Flashcard 8**
+
+**Q:** What are some components of advertising strategy?
+**A:**
+
+* Defining objectives
+* Setting the budget
+* Message decisions
+* Media decisions
+* Executing the campaign
+* Evaluating effectiveness
+* Organizing development
+
+---
+
+### 🔹 **Flashcard 9**
+
+**Q:** What are sales promotions and give examples?
+**A:** Incentives to stimulate purchase.
+
+* Consumer: money off, free gifts
+* Trade: discounts, sales-force competitions
+
+---
+
+### 🔹 **Flashcard 10**
+
+**Q:** What is public relations (PR) concerned with?
+**A:** Managing relationships with various stakeholders like employees, media, government, and community.
+
+---
+
+### 🔹 **Flashcard 11**
+
+**Q:** What are some PR activities?
+**A:** Publicity, corporate advertising, seminars, publications, lobbying, and charitable donations.
+
+---
+
+### 🔹 **Flashcard 12**
+
+**Q:** What is sponsorship in marketing?
+**A:** Financial or in-kind support of an event, activity, person, or organization used to achieve marketing objectives.
+
+
+### 🔹 **Flashcard 1**
+
+**Q:** What is a marketing database?
+**A:** An "electronic filing cabinet" containing names, contact details, lifestyle, and transactional data on customers and prospects.
+
+---
+
+### 🔹 **Flashcard 2**
+
+**Q:** Define database marketing.
+**A:** An interactive marketing approach using media like mail and telephone to provide info, stimulate demand, and record customer data.
+
+---
+
+### 🔹 **Flashcard 3**
+
+**Q:** What are the main purposes of database marketing?
+**A:**
+
+1. Provide information to a target audience
+2. Stimulate demand
+3. Maintain close customer relationships via data collection
+
+---
+
+### 🔹 **Flashcard 4**
+
+**Q:** Name three media used in database marketing.
+**A:** Direct mail, telemarketing, direct response advertising.
+
+---
+
+### 🔹 **Flashcard 5**
+
+**Q:** What is Customer Relationship Management (CRM)?
+**A:** A system of methods and technologies to manage and unify all customer communications across channels.
+
+---
+
+### 🔹 **Flashcard 6**
+
+**Q:** What is the main goal of CRM software?
+**A:** To present a unified, up-to-date view of each customer to all company staff.
+
+---
+
+### 🔹 **Flashcard 7**
+
+**Q:** List common customer-company contact points.
+**A:** Salesforce, telephone, distributors, fax, websites, e-mail.
+
+---
+
+### 🔹 **Flashcard 8**
+
+**Q:** Define direct marketing.
+**A:** The distribution of products and messages to target consumers through interactive media that allows measurable response.
+
+---
+
+### 🔹 **Flashcard 9**
+
+**Q:** What is a key feature that distinguishes direct marketing?
+**A:** It typically requires an immediate, measurable response.
+
+---
+
+### 🔹 **Flashcard 10**
+
+**Q:** List common direct marketing methods.
+**A:**
+
+* Direct mail
+* Telemarketing (inbound & outbound)
+* Direct response advertising
+* Catalogue marketing
+* Inserts
+* Door-to-door leafleting
+
+---
+
+### 🔹 **Flashcard 11**
+
+**Q:** What is buzz marketing?
+**A:** (Note: Not elaborated in your text, but typically refers to word-of-mouth marketing generated through unconventional campaigns.)
+
+---
+
+### 🔹 **Flashcard 12**
+
+**Q:** What is personal selling?
+**A:** (Not defined in your text, but typically refers to face-to-face communication between a salesperson and a customer with the goal of making a sale.)
+
+---
+
+### 🔹 **Flashcard 13**
+
+**Q:** What is sales management?
+**A:** (Also not defined in your text, but generally involves planning, directing, and controlling sales force activities to meet objectives.)
