@@ -1,23 +1,20 @@
-import { Component, HostBinding, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit, Input } from '@angular/core';
 import { Article } from './article.model';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-article',
-  imports: [],
+  imports: [NgFor],
   templateUrl: './article.component.html',
   styleUrl: './article.component.css'
 })
 export class ArticleComponent implements OnInit {
 
   @HostBinding('attr.class') cssClass = 'row';
-  article: Article;
+  @Input()
+  article!: Article;
 
-  constructor() {
-    this.article = new Article(
-      'Angular',
-      'http://angular.io',
-      10);
-  }
+  constructor() {}
 
   voteUp(): boolean {
     this.article.voteUp();
