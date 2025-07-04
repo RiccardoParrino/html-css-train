@@ -29,4 +29,9 @@ export class AppComponent {
     this.articles = [];
     return false;
   }
+
+  sortedArticles() : Article[] {
+    console.log(`Sorting articles by votes!`);
+    return this.articles.sort((a1, a2) => a1.votes - a2.votes);
+  }
 }

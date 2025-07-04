@@ -13,13 +13,14 @@
         <input name="link" id="link" #newlink>
       </div>
 
+      <button (click)="sortedArticles()"  class="ui positive right floated button">Sort articles</button>
       <button (click)="addArticle(newtitle, newlink)" class="ui positive right floated button">Submit link</button>
       <button (click)="deleteAllArticles()" class="ui negative right floated button">Delete all link</button>
     </form>
 
     <div class="ui grid posts">
       <app-article 
-        *ngFor="let article of articles"
+        *ngFor="let article of sortedArticles()"
         [article]="article">
       </app-article>
     </div>
