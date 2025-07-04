@@ -1,0 +1,29 @@
+---
+# Angular: Topics
+- Introduction
+- Components
+- Services
+---
+# Angular Introduction
+- app-root tag is where our application will be rendered
+- In angular, we can define our own HTML tags
+- ng serve
+- ng serve --port 9001
+---
+# Angular: Components
+---
+# Components: General Information
+
+- app-root is the main component
+- a component has two parts:
+    - a component decorator
+    - a component definition class
+- use the generate command to create a component: 
+    - ng generate component hello-world
+
+---
+
+# Components: Style Encapsulation
+- a style specified for a particular component only apply tothat component
+
+---
