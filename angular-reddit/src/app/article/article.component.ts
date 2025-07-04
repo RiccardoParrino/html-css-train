@@ -1,10 +1,9 @@
 import { Component, HostBinding, OnInit, Input } from '@angular/core';
 import { Article } from './article.model';
-import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-article',
-  imports: [NgFor],
+  imports: [],
   templateUrl: './article.component.html',
   styleUrl: './article.component.css'
 })
@@ -27,7 +26,6 @@ export class ArticleComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    
   }
 
 }
