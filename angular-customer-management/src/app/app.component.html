@@ -1,11 +1,13 @@
 <main>
-  <mat-sidenav-container>
-    <mat-sidenav>Start</mat-sidenav>
-    <mat-sidenav-content>Main</mat-sidenav-content>
-    <mat-sidenav-content>Customer</mat-sidenav-content>
-    <mat-sidenav-content>Administration</mat-sidenav-content>
-    <mat-sidenav-content>Settings</mat-sidenav-content>
-  </mat-sidenav-container>
+  <mat-toolbar class="toolbar-container">
+    <mat-icon>menu</mat-icon>
+    <span>My Application</span>
+
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+
+    <span>Right Aligned Text</span>
+  </mat-toolbar>
 </main>
 
 <router-outlet />
