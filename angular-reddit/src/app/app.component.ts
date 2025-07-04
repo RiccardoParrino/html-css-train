@@ -24,4 +24,9 @@ export class AppComponent {
     link.value = '';
     return false;
   }
+
+  deleteAllArticles() : boolean {
+    this.articles = [];
+    return false;
+  }
 }
