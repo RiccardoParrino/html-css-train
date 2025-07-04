@@ -1,6 +1,8 @@
 <main>
   <mat-toolbar class="toolbar-container">
-    <mat-icon>menu</mat-icon>
+    <button matIconButton class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
     <span>My Application</span>
 
     <!-- This fills the remaining space of the current row -->
@@ -8,6 +10,10 @@
 
     <span>Right Aligned Text</span>
   </mat-toolbar>
+  <div class="main-container">
+    <app-sidenav></app-sidenav>
+    
+  </div>
 </main>
 
 <router-outlet />
