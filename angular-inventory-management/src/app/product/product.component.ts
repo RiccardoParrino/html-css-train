@@ -11,10 +11,10 @@ export class ProductComponent {
   image: string;
   price: string;
 
-  constructor (department:string, image:string, price:string) {
-    this.department = department;
-    this.image = image;
-    this.price = price;
+  constructor () {
+    this.department = "department";
+    this.image = "image";
+    this.price = "price";
   }
 
 }
