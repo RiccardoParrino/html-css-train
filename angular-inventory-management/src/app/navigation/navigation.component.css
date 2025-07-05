@@ -6,3 +6,9 @@
     column-gap: 12px;
 }
 
+.navigation-button {
+    background-color: white;
+    border: 1px black solid;
+    padding: 8px 72px;
+    text-decoration: none;
+}
