@@ -10,8 +10,10 @@ export class ProductComponent {
   department: string;
   image: string;
   price: string;
+  product_name: string;
 
   constructor () {
+    this.product_name = "product_name";
     this.department = "department";
     this.image = "image";
     this.price = "price";

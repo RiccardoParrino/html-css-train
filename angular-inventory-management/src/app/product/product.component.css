@@ -1,6 +1,38 @@
-app-product {
+.product-style {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    column-gap: 12px;
+    border: 1px black solid;
+}
+
+.product-element-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.left-product-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    padding: 0px 12px;
+    width: 80%;
+}
+
+.right-product-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.product-image-container {
+    width: 128px;
 }
