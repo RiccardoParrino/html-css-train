@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Product } from '../product/product.model';
 
 @Component({
   selector: 'app-product-list',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './product-list.component.css'
 })
 export class ProductListComponent {
-
+  @Input() products!: Product[];
+  @Output() onproductSelected!: EventEmitter<Product>;
 }
