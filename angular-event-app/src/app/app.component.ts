@@ -8,5 +8,22 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-event-app';
+  value: number;
+
+  constructor() {
+    this.value = 1;
+  }
+
+  increase() {
+    this.value = this.value + 1;
+    console.log(this.value);
+    return false;
+  }
+
+  decrease() {
+    this.value = this.value - 1;
+    console.log(this.value);
+    return false;
+  }
+
 }
