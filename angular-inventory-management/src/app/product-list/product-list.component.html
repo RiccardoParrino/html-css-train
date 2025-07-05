@@ -1,8 +1,10 @@
 <div class="product-container">
 
-    <div  class="product"></div>
-    <div  class="product"></div>
-    <div  class="product"></div>
-    <div  class="product"></div>
+    <div class="ui grid posts">
+        <app-product 
+        *ngFor="let product of products"
+        [product]="product">
+        </app-product>
+    </div>
 
 </div>
