@@ -1,6 +1,18 @@
 .main {
+}
+
+.navbar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
+    margin: 0px 64px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar-container {
+    font-weight: 200;
+    font-size: 12px;
 }
