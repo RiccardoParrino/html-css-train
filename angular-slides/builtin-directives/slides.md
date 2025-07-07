@@ -143,3 +143,30 @@ You can use also nested array:
     <table>
 </div>
 ```
+---
+You can also add an index to the list:
+```
+<div class="ui list" *ngFor="let c of cities; let num = index">
+    <div class="item">
+        {{num+1}} - {{c}}
+    </div>
+</div>
+```
+
+---
+# NgNonBindable
+
+We use ngNonBindable when we want tell Angular not to compile or bind a particular section of our page.
+
+```
+<div class='ngNonBindableDemo'>
+    <span class='bordered'>{{content}}</span>
+    <span class="pre" ngNonBindable>
+    &larr; This is what {{content}} rendered </span>
+</div>
+```
+
+---
+# Conclusion
+
+In Angular we can combine these simple directives to create dynamic and powerful apps. However, the directives help us OUTPUT dynamic data, not accept user interaction.
