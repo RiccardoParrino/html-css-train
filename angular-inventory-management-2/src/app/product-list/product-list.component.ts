@@ -1,5 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { ProductComponent } from '../product/product.component';
+import { Component, Input } from '@angular/core';
 import { Product } from '../product/product.model';
 import { NgFor } from '@angular/common';
 
@@ -10,6 +9,5 @@ import { NgFor } from '@angular/common';
   styleUrl: './product-list.component.css'
 })
 export class ProductListComponent{
-  @Input() productList!: Product[];
- 
+  @Input() productList: Product[] = [];
 }
