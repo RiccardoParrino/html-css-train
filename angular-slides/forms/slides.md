@@ -155,3 +155,11 @@ export class FavoriteColorComponent {
 - Angular is built to generally have data flow one-way: top-down
 
 - However when it comes to forms, there are times where it is easier to opt-in to a two-way bind.
+
+---
+
+# Summary
+
+- Forms have a lot of moving pieces, but Angular makes it fairly straightforward. 
+
+- FormGroups, FormControls and Validation are the most fundamental tools for Forms in Angular
