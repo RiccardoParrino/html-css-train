@@ -127,3 +127,8 @@ export class FavoriteColorComponent {
 
 - FormBuilder can be used for creating Reactive Forms.
 ---
+# Input Validations
+
+- Our users aren't always going to enter data in exactly the right format. If someone enters data in the wrong format, we want to give them feedback and not allow the form to be submitted.
+
+- For these reasons, we will use the input validations.
