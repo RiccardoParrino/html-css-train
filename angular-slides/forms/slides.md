@@ -119,3 +119,11 @@ export class FavoriteColorComponent {
 ---
 # Form Builder
 
+- Form  Builder is an aptly-named helper class that helps us build forms. 
+
+- Forms are made up of FormControls and FormGroups. 
+
+- FormBuilder helps us make FormControls and FormGroups.
+
+- FormBuilder can be used for creating Reactive Forms.
+---
