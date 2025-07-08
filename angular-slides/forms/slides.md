@@ -64,7 +64,40 @@ peroninfo.errors;
 personInfo.dirty;
 personInfo.valid;
 ```
-
+---
+# Two different kind of forms
+- Reactive Forms
+    - Provide direct, explicit access to the underlying form's object model. This is the reccomended type of forms in Angular.
+- Template-driven Forms
+    - Rely on directives in the template to create and manipulate the underlying object model. They are useful for adding a simple form to an app, such aas an email list signup form. If you have very basic form requirements, template-driven forms could be a good fit.
+---
+# Key Differences for Reactive and Template-Driven
+- Setup of form model: 
+    - reactive forms are created in component class, meanwhile  template drive are created in directives
+- Data model:
+    - reactive forms are created by structured and immutable data, meanwhile template driven are unstructured and mutable
+- Data Flow: 
+    - reactive forms are synchronous, template-driven forms are asynchronous
+- Form validation: 
+    - form validation are made by functions in Angular, meanwhile in the template-driven forms, the validation is realized by directives.
 --- 
-# An Example of Form
+# An example of Reactive Forms
+```
+import {Component} from '@angular/core';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
+
+@Component({
+    standalone: true,
+    selector: 'app-reactive-favorite-color',
+    template: `
+        Favorite Color: <input type="text" [formControl]="favoriteColorControl">
+    `,
+    imports: [ReeactiveFormsModule],
+})
+export class FavoriteColorComponent {
+    favoriteColorControl = new FormControl('');
+}
+```
+---
+# Form Builder
 
