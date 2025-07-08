@@ -143,3 +143,15 @@ export class FavoriteColorComponent {
 - For doing these:
     - get access to the EventEmitter by calling control.valueChanges and then
     - add an observer using the .subscribe method
+
+--- 
+
+# ngModel
+
+- NgModel is a special directive: it binds a model to a form. ngModel is special in that it mimics two-way data binding.
+
+- Two-way data binding is almost always more complicated and difficult to reason about vs. one-way data binding. 
+
+- Angular is built to generally have data flow one-way: top-down
+
+- However when it comes to forms, there are times where it is easier to opt-in to a two-way bind.
