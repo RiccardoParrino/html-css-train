@@ -99,5 +99,23 @@ export class FavoriteColorComponent {
 }
 ```
 ---
+# Example of template-drive forms
+```
+import {Component} from '@angular/core';
+import {FormsModule} from '@angualr/forms';
+
+@Component({
+    standalone: true,
+    selector: 'app-template-favorite-color',
+    template: `
+        Favorite Color: <input type="text" [(ngModel)]="favoriteColor" />
+    `,
+    imports: [FormsModule],
+})
+export class FavoriteColorComponent {
+    favoriteColor = '';
+}
+```
+---
 # Form Builder
 
