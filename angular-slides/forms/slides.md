@@ -60,7 +60,7 @@ let personInfo = new FormGroup({
 
 ```
 personInfo.value;
-peroninfo.errors;
+personInfo.errors;
 personInfo.dirty;
 personInfo.valid;
 ```
