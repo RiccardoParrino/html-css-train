@@ -132,3 +132,14 @@ export class FavoriteColorComponent {
 - Our users aren't always going to enter data in exactly the right format. If someone enters data in the wrong format, we want to give them feedback and not allow the form to be submitted.
 
 - For these reasons, we will use the input validations.
+
+---
+
+# Watching for Changes
+- So far we've only extracted the value from our form by calling onSubmit when the form is submitted. But often we want to watch for any value changes on a control
+
+- Both FormGroup and FormControl have an eventemitter that we can use to observe changes.
+
+- For doing these:
+    - get access to the EventEmitter by calling control.valueChanges and then
+    - add an observer using the .subscribe method
