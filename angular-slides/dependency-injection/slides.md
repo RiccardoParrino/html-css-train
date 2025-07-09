@@ -36,7 +36,7 @@ marp: true
 
 - the Injector that holds a set of bindings and is responsible for resolving dependencies and injecting them when creating objects
 
-- the Dependncy that is what's being injected
+- the Dependency that is what's being injected
 
 ---
 
@@ -119,4 +119,4 @@ To review, when writing our apps there are thhree steps  we need to take in orde
 
 The first thing you shold do is create the service class, that is what is called the injectable, because it is the thing that our components will receive via the injection. 
 
-Then if you need an injectable insisde a class, you can inject the dependncy into a function (often a constructor) and Angular's dependency injection framework will locate it and provide it to you.
+Then if you need an injectable inside a class, you can inject the dependncy into a function (often a constructor) and Angular's dependency injection framework will locate it and provide it to you.
