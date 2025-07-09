@@ -75,4 +75,20 @@ export class UserDemoModule {}
 # An example of DI: user-demo.component.ts
 
 ```
+import {Component, OnInit} from '@angular/core';
+
+import {UserService} from '../services/user.service';
+
+@Component({
+    selector: 'app-user-demo',
+    templateUrl: './user-demo.component.html',
+    styleUrls: ['./user-demo.component.css']
+})
+export class UserDemoComponent {
+    userName: string;
+
+    constructor(private userService: UserService) {}
+
+    signIn(): void {...}
+}
 ```
