@@ -104,10 +104,51 @@ There are several ways we can configure resolving injected dependencies in Angul
 - Call any function and inject the return value of that function
 ---
 # DI using a Class
+
+- Singleton instance of a class is probably the most common type of injection
+
+- This tells Angular that we want to provide a singleton instance of the class whenever the class is injected
+
+- In this case, we need a token to identify the injection and the class to inject
+
+- In this case the injector will create a singleton behifn the scenes and return the same instance every time we inject it.
+
 ---
 # DI using a Value
+
+- Another way we can use DI is to provide a value, much like we might use a global constant
+
+- In this case, in the NgModule will be used the:
+
+```
+providers: [{provide: "API_URL", useValue: "http://my.api.com/v1"}]
+```
+
+- and then use the @Inject() decorator like this:
+
+```
+import {Inject} from "@angular/core";
+
+export class AnalyticsDemoComponent {
+    constructor (@Inject("API_URL") apiUrl: string) {}
+}
+```
+
 ---
 # DI using a Factory
+
+- In some case, the dependency doesn't have any argument required for the constructor. But what happens if a service's constructor requires arguments? We can implement this by using a factory which is a function that can return any object when injected
+
+```
+providers: [
+    {provide: AnalyticsService, useFactory: () => ...}
+]
+```
+
+- useFactory takes a function and whatever this function returns will be injected
+
+- Factory dependencies: sometimes also the factory function will have some dependencies of its own.
+
 ---
 # Summary
 
