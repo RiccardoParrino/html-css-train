@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PriceCalculatorService } from '../service/price/price-calculator.service';
 
 @Component({
   selector: 'app-product',
@@ -6,6 +7,11 @@ import { Component } from '@angular/core';
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })
-export class ProductComponent {
+export class ProductComponent implements OnInit{
 
+  constructor(private price:PriceCalculatorService) {}
+
+  ngOnInit(): void {
+    console.log(this.price.getPrice());
+  }
 }

@@ -6,4 +6,8 @@ import { Injectable } from '@angular/core';
 export class PriceCalculatorService {
 
   constructor() { }
+
+  getPrice () : Number{
+    return 3;
+  }
 }
