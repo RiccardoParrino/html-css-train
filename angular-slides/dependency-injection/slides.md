@@ -92,3 +92,31 @@ export class UserDemoComponent {
     signIn(): void {...}
 }
 ```
+
+--- 
+# Providers
+There are several ways we can configure resolving injected dependencies in Angular. For instance we can:
+
+- Inject a (singleton) instance of a class
+
+- Inject a value
+
+- Call any function and inject the return value of that function
+---
+# DI using a Class
+---
+# DI using a Value
+---
+# DI using a Factory
+---
+# Summary
+
+To review, when writing our apps there are thhree steps  we need to take in order to perform an injection:
+
+- Create the dependency (e.g. the service class)
+- Configure the injection (i.e. register the injection with Angular in our NgModule)
+- Declare the dependencies on the receiving component
+
+The first thing you shold do is create the service class, that is what is called the injectable, because it is the thing that our components will receive via the injection. 
+
+Then if you need an injectable insisde a class, you can inject the dependncy into a function (often a constructor) and Angular's dependency injection framework will locate it and provide it to you.
