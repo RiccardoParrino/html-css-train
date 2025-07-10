@@ -145,6 +145,29 @@ makeDelete(): void {
     });
 }
 ```
+---
+
+# Custom HTTP Headers
+
+```
+makeHeaders(): void {
+    const headers: HttpHeaders = new HttpHeaders({
+        'X-API-TOKEN': 'ng-book'
+    });
+
+    const req = new HttpRequest(
+        'GET',
+        'https://jsonplaceholder.typicode.com/posts/1',
+        {
+            headers: headers
+        }
+    );
+
+    this.http.request(req).subscribe(data => {
+        this.data = data['body'];
+    })
+}
+```
 
 ---
 
