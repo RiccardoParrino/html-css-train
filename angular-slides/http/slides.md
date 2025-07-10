@@ -80,18 +80,71 @@ export class SimpleHttpComponent implements OnInit {
 <div *ngIf="loading">loading...</div>
 <pre>{{data | json}}</pre>
 ```
-
 ---
 
-# Making a simple HTTP GET Request
+# Building the SimpleHttpComponent Controller
 
+```
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from  '@angular/common/http';
+
+@Component({
+    selector: 'app-simple-http',
+    templateUrl: './simple-http.component.html'
+})
+export class SimpleHttpComponent implements OnInit {
+    data: Object;
+    loading: boolean;
+
+    constructor(private http: HttpClient){}
+
+    ngOnInit() {}
+
+    makeRequest(): void {
+        this.loading = true;
+        this.http
+            .get('https://jsonplaceholder.typicode.com/posts/1')
+            .subscribe(data => {
+                this.data = data;
+                this.loading = false;
+            });
+    }
+}
+```
 ---
 
 # Making a simple HTTP POST Request
 
+```
+makePost(): void {
+    this.loading = true;
+    this.http.post('http://jsonplaceholder.typicode.com/posts',
+    JSON.stringify({
+        body: 'bar',
+        title: 'foo',
+        userId: 1
+    }))
+    .subscribe(data => {
+        this.data = data;
+        this.loading = false;
+    });
+}
+```
+
 ---
 
 # Making a PUT/PATCH/DELETE/HEAD Request
+
+```
+makeDelete(): void {
+    this.loading = true;
+    this.http.delete('https://jsonplaceholder.typicode.com/posts/1')
+    .subscribe(data => {
+        this.data = data;
+        this.loading = false;
+    });
+}
+```
 
 ---
 
