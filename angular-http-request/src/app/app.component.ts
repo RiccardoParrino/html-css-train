@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HttpCallerComponent } from './http-caller/http-caller.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [HttpCallerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
