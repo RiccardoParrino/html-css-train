@@ -72,6 +72,17 @@ export class SimpleHttpComponent implements OnInit {
 
 ---
 
+# Building the SimpleHttpComponent template
+
+```
+<h2>Basic Request</h2>
+<button type="button" (click)="makeRequest()">Make Request</button>
+<div *ngIf="loading">loading...</div>
+<pre>{{data | json}}</pre>
+```
+
+---
+
 # Making a simple HTTP GET Request
 
 ---
