@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Route, ActivatedRoute } from '@angular/router';
+import { SpotifyService } from '../service/spotify/spotify.service';
 
 @Component({
   selector: 'app-search',

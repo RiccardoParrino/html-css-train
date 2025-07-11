@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class SpotifyServiceService {
+export class SpotifyService {
 
   constructor(public http: HttpClient) { }
 
