@@ -57,9 +57,104 @@ marp: true
 
 ---
 
-# Little Introduction to Reactive Programming
+# Introduction to Reactive Programming
 
 - Reactive programming is programming with asynchronous data streams
 
 - A stream is a sequence of ongoing events ordered in time. It can emit three different things: a value (of some type), an error, or a "completed" signal
 
+- We capture these emitted events only asynchronously, by defining a function that will execute when a value is emitted
+
+- The "listening to the stream is called subscribing", the functions we are defining are observers and the stream is the subject being observed. This is precisely the Observer Design Pattern.
+
+---
+
+# Introduction to Reactive Programming (2)
+
+- Reactive Programming raises the level of abstraction of your code so you can focus on the interdependence of events that define the business logic
+
+- The benefit of RP is more evident in modern webapps: apps have evolved to be more real-time: modifying a single form field can automatically trigger a save to the backend, "likes" to some content can be reflected in real time to other connected users, and so forth.
+
+---
+
+# Observables in Angular
+
+- They are used for:
+    - HTTP Requests
+    - Reactive Forms
+    - UI Events
+    - Routing
+    - Services
+
+---
+
+# Observables in Angular (2)
+
+```
+import {HttpClient} from '@angular/common/http';
+import {Observable} from 'rxjs';
+
+@Injectable({providedIn:'root'})
+export class UserService {
+    constructor(private http: HttpClient) {}
+
+    getUsers(): Observable<User[]> {
+        return this.http.get<User[]>('https://api.example.com/users');
+    }
+}
+```
+
+---
+
+# Observables in Angualr (3)
+
+- RxJs operators reduce, filter and map observable element, like:
+
+```
+this.userService.getUsers()
+    .pipe(
+        map(users => users.filter(user => user.isActive))
+    )
+    .subscribe(activeUsers => {
+        this.user = activeUsers;
+    });
+```
+
+---
+
+# Introduction to RxJs 
+
+- RxJS (Reactive Extensions for JavaScript) is a library for working with asynchronous data streams and events using reactive programming paradigm
+
+- The core concept of RxJs are:
+    - Observable: represents a stream of data over time (like Promise, but can emit multiple values) and supports three different function: next, error and complete
+
+    - Observer: is an object that subscribes to the Observable to receive data
+
+    - Subscription: the object returned by .subscribe() used to manage the subscription
+
+    - Operators: functions that transform or combine Observables
+
+---
+
+# Introduction to RxJs (2)
+
+- Most common creation functions:
+    - of(1,2,3) emits static values
+    - from([1,2,3]) converts array or Promise to Observable
+    - interval(1000) Emits a value every second
+    - timer(2000) Emits after 2 seconds
+    - fromEvent(btn, 'click') Creates Observable from DOM events
+
+---
+
+# Introduction to RxJs (3)
+
+- Most Used operators:
+    - map(fn) trasforms values
+    - filter(fn) filters values
+    - take(n) Takes the first n values
+    - debounceTime(ms) Waits for silence before emitting
+    - switchMap() Cancels the previous stream and starts a new one (good for autocomplete)
+    - mergeMap() Runs all streams in parallel
+    - catchError() Handles errors
