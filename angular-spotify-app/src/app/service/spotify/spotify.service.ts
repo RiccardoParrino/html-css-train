@@ -14,6 +14,6 @@ export class SpotifyService {
       `type=track`
     ].join("&");
     let queryURL: string = `https://api.spotify.com/v1/search?${params}`;
-    return this.http.request(queryURL);
+    return this.http.get(queryURL);
   }
 }

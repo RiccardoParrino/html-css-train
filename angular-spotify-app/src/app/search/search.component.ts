@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Route, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { SpotifyService } from '../service/spotify/spotify.service';
 
 @Component({
@@ -14,7 +14,7 @@ export class SearchComponent implements OnInit {
 
   constructor(
     private spotify: SpotifyService,
-    private router: Route,
+    private router: Router,
     private route: ActivatedRoute) {
       this.route
         .queryParams
