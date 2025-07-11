@@ -19,6 +19,8 @@ marp: true
     - LocalStorage
     - Service Workers
     - etc.
+    
+---
 
 # The problem(s) we try to solve
 
