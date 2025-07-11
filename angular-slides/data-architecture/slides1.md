@@ -19,7 +19,7 @@ marp: true
     - LocalStorage
     - Service Workers
     - etc.
-    
+
 ---
 
 # The problem(s) we try to solve
@@ -44,3 +44,22 @@ marp: true
     - Flux: uses a unidirection data flow. In Flux, Stores hold data, Views render what's in the Store, and Actions change the data in the Store
 
     - Observables: Observables gives us streams of data. We subscribe to the streams and then perform operations to react to changes. RxJs is the most popular reactive streams library for JavaScript
+
+---
+
+# Data Architecture with Observable
+
+- In Angular we can structure the data architecture of the application using Observables and implementing Reactive Programming
+
+- Reactive Programming is a way to work with asynchronous streams of data
+
+- Observables are the main data structure we use to implement Reactive Programming
+
+---
+
+# Little Introduction to Reactive Programming
+
+- Reactive programming is programming with asynchronous data streams
+
+- A stream is a sequence of ongoing events ordered in time. It can emit three different things: a value (of some type), an error, or a "completed" signal
+
