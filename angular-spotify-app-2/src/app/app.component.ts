@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Track } from './track/track.model';
+import { SpotifyService } from './services/spotify.service';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +12,10 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'angular-spotify-app-2';
 
-  
+  results:Track[] = [];
+
+  constructor (private spotifyService:SpotifyService){
+
+  }
 
 }
