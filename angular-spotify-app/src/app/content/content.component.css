@@ -1,3 +1,7 @@
 .content {
     background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
