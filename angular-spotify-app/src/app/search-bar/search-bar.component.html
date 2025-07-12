@@ -7,11 +7,11 @@
         </div>
 
         <div class="search-box-container">
-            <input class="search-bar" type="text">
+            <input class="search-bar" type="text" #searchString>
         </div>
 
         <div class="button-search-container">
-            <button class="button-search">search!</button>
+            <button class="button-search" (click)="search(searchString.value)">search!</button>
         </div>
 
     </div>

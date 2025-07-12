@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class SearchBarComponent {
 
+  
+
+  search(query:string) {
+    console.log(`Searching for ${query}`);
+  }
+
 }
