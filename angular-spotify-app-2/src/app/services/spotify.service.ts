@@ -35,9 +35,31 @@ export class SpotifyService {
       "12-07-2025"
     );
 
-    results.push(track1);
-    results.push(track2);
-    results.push(track3);
+    const track4 = new Track(
+      "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png",
+      "My Boy",
+      "Billie Eilish",
+      "Billie Eilish Album",
+      "12-07-2025"
+    );
+
+    console.log(Math.floor(Math.random() * 2)); 
+
+    if ( Math.floor(Math.random() * 2) > 0 ){
+      results.push(track1);
+    }
+
+    if ( Math.floor(Math.random() * 2) > 0 ){
+      results.push(track2);
+    }
+
+    if ( Math.floor(Math.random() * 2) > 0 ){
+      results.push(track3);
+    }
+
+    if ( Math.floor(Math.random() * 2) > 0 ){
+      results.push(track4);
+    }
 
     return results;
   }
