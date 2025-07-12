@@ -15,7 +15,10 @@ export class AppComponent {
   results:Track[] = [];
 
   constructor (private spotifyService:SpotifyService){
+  }
 
+  search(query:string) {
+    this.results = this.spotifyService.search(query);
   }
 
 }
