@@ -16,6 +16,7 @@ export class SpotifyService {
     const track1 = new Track(
       "www.google.it",
       "Riptide",
+      "Vance Joy",
       "Vance Joy Album",
       "12-07-2025"
     );
@@ -23,6 +24,7 @@ export class SpotifyService {
     const track2 = new Track(
       "www.google.it",
       "Bad Guy",
+      "Billie Eilish",
       "Billie Eilish Album",
       "12-07-2025"
     );
@@ -30,6 +32,7 @@ export class SpotifyService {
     const track3 = new Track(
       "www.google.it",
       "Beggin",
+      "Maneskin",
       "Maneskin Album",
       "12-07-2025"
     );
