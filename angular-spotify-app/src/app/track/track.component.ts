@@ -10,7 +10,6 @@ import { Track } from './track.model';
 export class TrackComponent {
   @Input() track!:Track;
 
-  constructor() {
-  }
+  constructor() {}
 
 }
