@@ -14,7 +14,10 @@ export class SearchBarComponent {
 
   search(query:string) : Track[] {
     console.log(`Searching for ${query}`);
-    return this.spotifyService.search(query);
+    
+    let results = this.spotifyService.search(query);
+
+    return results;
   }
 
 }
