@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Track } from './track.model';
 
 @Component({
   selector: 'app-track',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './track.component.css'
 })
 export class TrackComponent {
+  @Input() track!:Track;
 
-}
+  constructor() {
+  }
+} 
