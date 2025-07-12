@@ -18,40 +18,11 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
     this.results = this.search("");
+    console.log(this.results);
   }
 
   search(query:string) : any {
-      let results:Track[] = [];
-      
-      // mock
-      const track1 = new Track(
-        "www.google.it",
-        "Riptide",
-        "Vance Joy",
-        "Vance Joy Album",
-        "12-07-2025"
-      );
-  
-      const track2 = new Track(
-        "www.google.it",
-        "Bad Guy",
-        "Billie Eilish",
-        "Billie Eilish Album",
-        "12-07-2025"
-      );
-  
-      const track3 = new Track(
-        "www.google.it",
-        "Beggin",
-        "Maneskin",
-        "Maneskin Album",
-        "12-07-2025"
-      );
-  
-      results.push(track1);
-      results.push(track2);
-      results.push(track3);
-  
-      return results;
-    }
+    this.results = this.spotifyService.search("");
+    console.log(this.results);
+  }
 }

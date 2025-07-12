@@ -14,7 +14,7 @@ export class SpotifyService {
     
     // mock
     const track1 = new Track(
-      "www.google.it",
+      "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png",
       "Riptide",
       "Vance Joy",
       "Vance Joy Album",
@@ -22,7 +22,7 @@ export class SpotifyService {
     );
 
     const track2 = new Track(
-      "www.google.it",
+      "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png",
       "Bad Guy",
       "Billie Eilish",
       "Billie Eilish Album",
@@ -30,7 +30,7 @@ export class SpotifyService {
     );
 
     const track3 = new Track(
-      "www.google.it",
+      "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png",
       "Beggin",
       "Maneskin",
       "Maneskin Album",
