@@ -7,7 +7,6 @@ import { Track } from '../track/track.model';
 export class SpotifyService {
 
   constructor() {
-
   }
 
   search(query:string) : any {
