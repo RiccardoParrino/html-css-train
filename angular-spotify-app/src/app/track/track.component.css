@@ -6,6 +6,14 @@
     border: 1px solid black;
 }
 
+.track-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 256px;
+}
+
 .description-container {
     display: flex;
     flex-direction: row;
@@ -25,4 +33,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.album-img-container {
+    max-width: 256px;
+}
+
+.album-img {
+    width: 100%;
 }

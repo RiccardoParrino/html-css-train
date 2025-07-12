@@ -22,7 +22,6 @@ export class ContentComponent implements OnInit {
   }
 
   search(query:string) : any {
-    this.results = this.spotifyService.search("");
-    console.log(this.results);
+    return this.spotifyService.search("");
   }
 }
