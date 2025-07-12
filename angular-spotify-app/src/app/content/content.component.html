@@ -1,3 +1,5 @@
-<div class="content">
-    
+<div class="content" *ngFor="let result of results">
+
+    <app-track [track]="result"></app-track>
+
 </div>

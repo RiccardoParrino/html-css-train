@@ -11,4 +11,6 @@ import { ContentComponent } from './content/content.component';
 })
 export class AppComponent {
   title = 'angular-spotify-app';
+
+  
 }

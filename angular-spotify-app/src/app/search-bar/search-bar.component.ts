@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { SpotifyService } from '../service/spotify.service';
 import { Track } from '../track/track.model';
+import { TrackComponent } from '../track/track.component';
 
 @Component({
   selector: 'app-search-bar',
@@ -9,6 +10,7 @@ import { Track } from '../track/track.model';
   styleUrl: './search-bar.component.css'
 })
 export class SearchBarComponent {
+  results:TrackComponent[] = [];
 
   constructor(private spotifyService:SpotifyService) {}
 

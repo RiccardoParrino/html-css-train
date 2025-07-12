@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Track } from './track.model';
 
 @Component({
@@ -8,10 +8,9 @@ import { Track } from './track.model';
   styleUrl: './track.component.css'
 })
 export class TrackComponent {
-  track:Track;
+  @Input() track!:Track;
 
-  constructor(track:Track) {
-    this.track = track;
+  constructor() {
   }
 
 }
