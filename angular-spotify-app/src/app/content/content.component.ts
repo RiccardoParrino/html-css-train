@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { TrackComponent } from '../track/track.component';
+import { SpotifyService } from '../service/spotify.service';
 
 @Component({
   selector: 'app-content',
@@ -6,6 +8,13 @@ import { Component } from '@angular/core';
   templateUrl: './content.component.html',
   styleUrl: './content.component.css'
 })
-export class ContentComponent {
+export class ContentComponent implements OnInit {
+  results:TrackComponent[] = [];
 
+  constructor (private spotifyService: SpotifyService) {
+  }
+
+  ngOnInit(): void {
+    this.results = [];
+  }
 }
