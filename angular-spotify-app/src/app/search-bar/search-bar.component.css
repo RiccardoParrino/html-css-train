@@ -1,0 +1,24 @@
+.navbar {}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-container {
+    max-width: 64px;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.search-box-container {
+    max-width: 512px;
+}
+
+.search-bar {
+    border: 1px solid black;
+}
