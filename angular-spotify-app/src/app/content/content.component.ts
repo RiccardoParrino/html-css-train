@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { SpotifyService } from '../service/spotify.service';
 import { Track } from '../track/track.model';
 import { NgFor } from '@angular/common';
@@ -11,17 +11,12 @@ import { TrackComponent } from '../track/track.component';
   styleUrl: './content.component.css'
 })
 export class ContentComponent implements OnInit {
-  results:Track[] = [];
+  @Input() results!:Track[];
 
   constructor (private spotifyService: SpotifyService) {
   }
 
   ngOnInit(): void {
-    this.results = this.search("");
-    console.log(this.results);
   }
 
-  search(query:string) : any {
-    return this.spotifyService.search("");
-  }
 }
