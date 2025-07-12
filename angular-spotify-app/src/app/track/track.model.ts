@@ -4,5 +4,6 @@ export class Track {
         public name:string,
         public album:string,
         public date:string
-    ) {}
+    ) {
+    }
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SpotifyService } from '../service/spotify.service';
 
 @Component({
   selector: 'app-search-bar',
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class SearchBarComponent {
 
-  
+  constructor(spotifyService:SpotifyService) {}
 
   search(query:string) {
     console.log(`Searching for ${query}`);
