@@ -1,7 +1,10 @@
 import { Message } from "../message/message.model";
+import { MessagesService } from "../message/messages.service";
 import { Thread } from "../thread/thread.model";
+import { ThreadsService } from "../thread/threads.service";
 import { User } from "../user/user.model";
 import * as moment from 'moment';
+import { UsersService } from "../user/users.service";
 
 const me: User = new User('Juliet', 'assets/images/avatars/female-avatar-1.png');
 const ladycap: User = new User('Lady Capulet', 'assets/images/avatars/female-avatar-2.png');
@@ -48,3 +51,18 @@ const initialMessages: Array<Message> = [
     })
     
 ];
+
+export class ChatExampleData {
+    static init(messagesService: MessagesService,
+        threadsService: ThreadsService,
+        usersService: UsersService): void {
+    
+        messagesService.messages.subscribe();
+
+        UsersService.setCurrentUser(me);
+
+        threadsService.setCurrentThread(tEcho);
+
+        this.setupBots(messagesService);
+    }
+}
