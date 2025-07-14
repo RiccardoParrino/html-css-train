@@ -5,7 +5,13 @@
     </div>
 
     <div class="chat-messages-container">
-        
+        <div class="message-container" *ngFor="let message of messages">
+            <div class="message">
+                <p>{{message}}</p>
+                <img src="favicon.ico" alt="">
+                <p>data</p>
+            </div>
+        </div>
     </div>
 
     <div class="chat-message-bar">
