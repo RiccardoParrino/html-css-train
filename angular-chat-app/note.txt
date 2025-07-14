@@ -1,0 +1,14 @@
+Component:
+ChatNavBar
+ChatThreads
+ChatWindow
+
+Services:
+Thread Service
+Users Service
+Messages Service
+
+Models:
+UserModel
+Messages
+Thread
