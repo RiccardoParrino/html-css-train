@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class ChatNavBarComponent {
 
+  unreadMessagesCount:Number;
+
+  constructor () {
+    this.unreadMessagesCount = 0;
+  }
+
 }
