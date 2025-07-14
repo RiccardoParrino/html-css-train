@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './chat-threads.component.css'
 })
 export class ChatThreadsComponent {
+  imgUrl:string;
+  userName:string;
+  lastMessage:string;
 
+  constructor () {
+    this.imgUrl = "favicon.ico";
+    this.userName = "cicio";
+    this.lastMessage = "passami l'olio";
+  }
 }
