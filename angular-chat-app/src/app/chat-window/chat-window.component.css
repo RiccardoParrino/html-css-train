@@ -1,13 +1,28 @@
 .chat-window {
     border: 1px solid black;
     width: 384px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
 }
 
 .chat-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: gray;
 }
 
-.chat-messages-container {}
+.chat-messages-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    height: 324px;
+}
 
 .chat-message-bar {
     display: flex;
