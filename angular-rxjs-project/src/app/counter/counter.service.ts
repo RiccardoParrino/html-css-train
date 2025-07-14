@@ -1,21 +1,22 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
+import { Counter } from './counter.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CounterService {
 
-  value:number;
+  value:Counter;
 
-  streamCounter:Subject<number> = new Subject<number>();
+  streamCounter:Subject<Counter> = new Subject<Counter>();
 
   constructor() {
-    this.value = 0;
+    this.value = new Counter();
   }
 
   newNumber() {
-    this.value = this.value + 1;
+    this.value.value = this.value.value + 1;
     this.streamCounter.next(this.value);
   }
 

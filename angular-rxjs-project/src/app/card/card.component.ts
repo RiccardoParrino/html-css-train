@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CounterService } from '../counter/counter.service';
+import { Counter } from '../counter/counter.model';
 
 @Component({
   selector: 'app-card',
@@ -9,7 +10,7 @@ import { CounterService } from '../counter/counter.service';
 })
 export class CardComponent  {
 
-  value:number = 0;
+  value:Counter = new Counter();
 
   constructor(public counterService:CounterService) {
     this.counterService

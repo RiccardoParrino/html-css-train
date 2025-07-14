@@ -2,9 +2,7 @@ import { OnInit } from "@angular/core";
 
 export class Counter implements OnInit {
 
-    value:number;
-
-    constructor() {
+    constructor(public value: number) {
         this.value = 0;
     }
 
