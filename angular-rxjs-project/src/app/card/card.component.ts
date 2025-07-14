@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CounterService } from '../counter/counter.service';
 
 @Component({
   selector: 'app-card',
@@ -6,16 +7,22 @@ import { Component } from '@angular/core';
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })
-export class CardComponent {
+export class CardComponent  {
 
-  value:number;
+  value:number = 0;
 
-  constructor() {
-    this.value = 0;
+  constructor(public counterService:CounterService) {
+    this.counterService
+      .streamCounter
+      .subscribe( 
+        (value) => {
+          this.value = value;
+        }
+      )
   }
 
   incrementValue() {
-    this.value = this.value+1;
+    this.counterService.newNumber();
   }
 
 }
