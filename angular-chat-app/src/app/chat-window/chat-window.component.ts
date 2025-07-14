@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class ChatWindowComponent {
 
+  actualThread:string;
+
+  constructor() {
+    this.actualThread = "pippo";
+  }
+
 }

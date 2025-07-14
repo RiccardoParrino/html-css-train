@@ -1,0 +1,25 @@
+.chat-window {
+    border: 1px solid black;
+    width: 384px;
+}
+
+.chat-title-container {
+    background-color: gray;
+}
+
+.chat-messages-container {}
+
+.chat-message-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-message-input {
+    width: 70%;
+}
+
+.message-button-submit {
+    width: 30%;
+}
