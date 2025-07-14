@@ -1,6 +1,6 @@
 import { Thread } from "../thread/thread.model";
 import { User } from "../user/user.model";
-
+import { uuid } from "../util/uuid";
 
 export class Message {
     id: string;
