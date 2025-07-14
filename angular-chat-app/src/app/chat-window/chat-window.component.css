@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-color: azure;
     height: 324px;
     overflow-y: scroll;
@@ -38,14 +38,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    background-color: white;
 }
 
 .message-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     border: 1px solid black;
+    width: 256px;
+    height: 48px;
 }
 
 .message-img {
