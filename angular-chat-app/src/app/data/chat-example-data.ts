@@ -59,10 +59,10 @@ export class ChatExampleData {
     
         messagesService.messages.subscribe();
 
-        UsersService.setCurrentUser(me);
+        usersService.setCurrentUser(me);
 
         threadsService.setCurrentThread(tEcho);
 
-        this.setupBots(messagesService);
+        // this.setupBots(messagesService);
     }
 }

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { Message } from './message.model';
 
 @Injectable({
@@ -9,7 +9,7 @@ export class MessagesService {
 
   newMessages: Subject<Message> = new Subject<Message>();
 
-  // messages: Observable<Message[]>;
+  messages: Observable<Message[]> = new Observable<Message[]>();
 
   updates: Subject<any> = new Subject<any>();
 
