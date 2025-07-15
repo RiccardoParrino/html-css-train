@@ -1,0 +1,8 @@
+<div class="thread-img-container">
+    <img class="thread-img" src="{{thread.avatarSrc}}" alt="">
+</div>
+<div class="thread-messages-container">
+    <p>{{thread.name}}</p>
+    <p>{{thread.lastMessage}}</p>
+    <button (click)="setCurrentThread($event)">Chat</button>
+</div>

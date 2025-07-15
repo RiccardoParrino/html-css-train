@@ -1,10 +1,3 @@
 <div class="thread" *ngFor="let thread of threads">
-    <div class="thread-img-container">
-        <img class="thread-img" src="{{thread.avatarSrc}}" alt="">
-    </div>
-    <div class="thread-messages-container">
-        <p>{{thread.name}}</p>
-        <p>{{thread.lastMessage}}</p>
-        <button>Chat</button>
-    </div>
+    <chat-thread [thread]="thread"></chat-thread>
 </div>
