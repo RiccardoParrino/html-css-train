@@ -1,7 +1,6 @@
 import { Message } from "../message/message.model";
 import { uuid } from "../util/uuid";
 
-
 export class Thread {
     id: string;
     lastMessage!: Message;

@@ -1,19 +1,17 @@
 import { Component } from '@angular/core';
+import { Thread } from '../thread/thread.model';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'chat-threads',
-  imports: [],
+  imports: [NgFor],
   templateUrl: './chat-threads.component.html',
   styleUrl: './chat-threads.component.css'
 })
 export class ChatThreadsComponent {
-  imgUrl:string;
-  userName:string;
-  lastMessage:string;
+  threads:Thread[];
 
   constructor () {
-    this.imgUrl = "favicon.ico";
-    this.userName = "cicio";
-    this.lastMessage = "passami l'olio";
+    this.threads = [];
   }
 }

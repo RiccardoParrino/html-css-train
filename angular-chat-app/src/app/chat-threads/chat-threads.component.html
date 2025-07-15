@@ -1,9 +1,9 @@
-<div class="thread">
+<div class="thread" *ngFor="let thread of threads">
     <div class="thread-img-container">
-        <img class="thread-img" src="{{imgUrl}}" alt="">
+        <img class="thread-img" src="{{thread.avatarSrc}}" alt="">
     </div>
     <div class="thread-messages-container">
-        <p>{{userName}}</p>
-        <p>{{lastMessage}}</p>
+        <p>{{thread.name}}</p>
+        <p>{{thread.lastMessage}}</p>
     </div>
 </div>

@@ -6,7 +6,7 @@ import { User } from "../user/user.model";
 import * as moment from 'moment';
 import { UsersService } from "../user/users.service";
 
-const me: User = new User('Juliet', 'assets/images/avatars/female-avatar-1.png');
+const me: User      = new User('Juliet', 'assets/images/avatars/female-avatar-1.png');
 const ladycap: User = new User('Lady Capulet', 'assets/images/avatars/female-avatar-2.png');
 const echo: User    = new User('Echo Bot', 'assets/images/avatars/male-avatar-1.png');
 const rev: User     = new User('Reverse Bot', 'assets/images/avatars/female-avatar-4.png');
@@ -62,6 +62,13 @@ export class ChatExampleData {
         usersService.setCurrentUser(me);
 
         threadsService.setCurrentThread(tEcho);
+
+        let tempThreads:Thread[] = [];
+        tempThreads.push(tLadycap);
+        tempThreads.push(tEcho);
+        tempThreads.push(tRev);
+        tempThreads.push(tWait);
+        threadsService.setAllThreads(tempThreads);
 
         // this.setupBots(messagesService);
     }
