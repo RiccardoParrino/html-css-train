@@ -56,8 +56,6 @@ export class ChatExampleData {
     static init(messagesService: MessagesService,
         threadsService: ThreadsService,
         usersService: UsersService): void {
-    
-        messagesService.messages.subscribe();
 
         usersService.setCurrentUser(me);
 

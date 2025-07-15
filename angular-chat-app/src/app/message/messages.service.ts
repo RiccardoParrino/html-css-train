@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, Subject } from 'rxjs';
+import { Subject } from 'rxjs';
 import { Message } from './message.model';
 
 @Injectable({
@@ -9,14 +9,14 @@ export class MessagesService {
 
   newMessages: Subject<Message> = new Subject<Message>();
 
-  messages: Observable<Message[]> = new Observable<Message[]>();
-
-  updates: Subject<any> = new Subject<any>();
+  messages: Message[];
 
   constructor() {
+    this.messages = [];
   }
 
   addMessage(message: Message):void {
     this.newMessages.next(message);
+    this.messages.push(message);
   }
 }
