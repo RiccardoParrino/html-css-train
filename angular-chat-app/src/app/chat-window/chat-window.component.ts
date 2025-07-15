@@ -19,7 +19,11 @@ export class ChatWindowComponent {
     this.threadsService.currentThread.subscribe(
       (thread) => { this.actualThread = thread; }
     );
-    this.messages =["ciao", "come", "stai"];
+    this.messages = [];
+  }
+
+  sendMessage(msgText:HTMLInputElement) {
+    console.log(msgText);
   }
 
 }

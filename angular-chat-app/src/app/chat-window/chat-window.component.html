@@ -18,8 +18,8 @@
     </div>
 
     <div class="chat-message-bar">
-        <input class="chat-message-input" type="text" placeholder="Write your message here">
-        <button class="message-button-submit" type="submit">Send</button>
+        <input class="chat-message-input" type="text" placeholder="Write your message here" #messageText>
+        <button class="message-button-submit" type="submit" (click)="sendMessage(messageText)">Send</button>
     </div>
 
 </div>
