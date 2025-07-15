@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Thread } from '../thread/thread.model';
 import { NgFor } from '@angular/common';
+import { ThreadsService } from '../thread/threads.service';
 
 @Component({
   selector: 'chat-threads',
@@ -11,7 +12,7 @@ import { NgFor } from '@angular/common';
 export class ChatThreadsComponent {
   threads:Thread[];
 
-  constructor () {
-    this.threads = [];
+  constructor (private threadService:ThreadsService) {
+    this.threads = this.threadService.threads;
   }
 }
