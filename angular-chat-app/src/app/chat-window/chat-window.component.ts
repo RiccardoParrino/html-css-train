@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
+import { ThreadsService } from '../thread/threads.service';
+import { Thread } from '../thread/thread.model';
+import { MessagesService } from '../message/messages.service';
 
 @Component({
   selector: 'chat-window',
@@ -9,12 +12,14 @@ import { NgFor } from '@angular/common';
 })
 export class ChatWindowComponent {
 
-  actualThread:string;
-  messages: string[];
+  actualThread!:Thread;
+  messages:string[];
   
-  constructor() {
-    this.actualThread = "pippo";
-    this.messages = ["ciao come stai", "tutto bene", "anche io"];
+  constructor(private threadsService:ThreadsService) {
+    this.threadsService.currentThread.subscribe(
+      (thread) => { this.actualThread = thread; }
+    );
+    this.messages =["ciao", "come", "stai"];
   }
 
 }
