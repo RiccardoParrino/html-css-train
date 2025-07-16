@@ -354,3 +354,8 @@ There are two types of built-in differs: iterable differs and key-value differs:
 
 # AfterContentInit, AfterViewinit, AfterContentChecked and AfterViewChecked
 
+- The AfterContentInit hook is called after OnINit, right after the initialization of the content of the component or directive has finished
+
+- The AfterContentChecked works siomilarly, but it's called after the directive check has finished. The check, in this contenxt , is the change detection system check
+
+- AfterViewInit and AftwareViewChecked are triggered right after the content ones above, right after the view has been full initialized. Those two hooks are only applicable to components, and not to directives
