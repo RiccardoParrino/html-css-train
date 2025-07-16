@@ -8,6 +8,18 @@ marp: true
 
 ---
 
+# Index
+- Introduction to testing
+- Setting up testing
+- Testing Services
+- Testing HTTP
+- Testing Components
+- Testing Forms
+- Testing HTTP requests
+- Summary
+
+---
+
 # Introduction to testing
 
 - Testing can help reveal bugs before they appear, instll confidence in yout web application, and makes it easy to onboard new developer into the application
@@ -52,3 +64,50 @@ marp: true
     - a stub provides a subset of functionality with "manual" behavior overrides whereas
 
     - a mock generally sets expectations and verifies that certain methods were called
+
+---
+
+# Testing Routing to Components
+
+- When testing components, we can either:
+    - write tests that will interact with the component from the outside, passing attributes in ad checking how the markup is affected (e.g. Black box testing)
+
+    - test individual component methods and their output (e.g. White box testing)
+
+--- 
+
+# Mocking dependencies
+
+- To mock a dependency create a file named: nameOfTheService.service.mock.ts
+
+- A spy is a specific type of mock object that gives us two benefits:
+    - we can simulate return values and
+    - count how many times the method was called and with which parameters
+
+---
+
+# Testing Forms
+
+---
+
+# Testing HTTP requests
+
+- We can test HTTP interaction mocking version of the HttpClient or HttpClient class, since it is an external dependency
+
+- Angular testing library already provides a built in alternative: HttpTestingController
+
+---
+
+# Testing a POST and other requests
+
+- When writing our test for this method, our goal is to test two things:
+    - the request method (POST) is correct and that
+    - the URL we're hitting is also correct
+
+- then you can also test DELETE method, GET method and the header of the request
+
+---
+
+# Summary
+
+Having test inside Angular simplifies all of the work to be done. It's easy to test: controllers, services, forms and HTTP requests. 
