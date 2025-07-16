@@ -349,3 +349,8 @@ There are two types of built-in differs: iterable differs and key-value differs:
 # Key-value differs
 
 - Key-value differs should be used for dictionary-like structure, and work at the key level. This differ will identitfy changes whan a new key is added, when a key removed and when the value of a key changed.
+
+---
+
+# AfterContentInit, AfterViewinit, AfterContentChecked and AfterViewChecked
+
