@@ -19,4 +19,83 @@ marp: true
 
 ---
 
+# Styling components (with encapsulation)
+
+- ViewEncapsulation: Emulated
+
+- ViewEncapsulation: Native
+
+- ViewEncapsulation: None
+
+---
+
+# Creating a Popup: Referencing and Modifying Host Elements
+
+- An host element is an element to which the directive or component is bound
+
+- For example, we can have a Popup directive that will attach behavior to its host element which will display a message when clicked
+
+- Make a difference between Components and Directives:
+    - Component: Components are directives and Components always have a view
+    - Directives: Directives may or may not have a view
+
+---
+
+# Creating a Popup: Popup Structure
+
+- receive the message attribute from the host
+
+- be notified when the host element is clicked
+
+```
+@Directive({
+    selector: '[popup]'
+})
+export class PopupDirective {
+    constructor() {
+        console.log('Directive bound');
+    }
+}
+```
+
+---
+
+# Creating a Popup: Attach the Directive
+
+```
+@Component({
+    selector: 'app-popup-demo',
+    template: `
+    <div class="ui message" popup>
+        <div class="header">
+            Learning Directives
+        </div>
+
+        <p>
+            This should use our Popup directive
+        </p>
+    </div>
+    `
+})
+export class PopupDemoComponent1 {}
+```
+
+---
+
+# Creating a Popup: Using ElementRef
+Example of using elementRef:
+```
+@Directive({
+    selector: '[popup]'
+})
+export class PopupDirective {
+    constructor(_elementRef: ElementRef) {
+        console.log(_elementRef);
+    }
+}
+```
+
+---
+
+# Creating a Popup: Do something when the host is clicked
 
