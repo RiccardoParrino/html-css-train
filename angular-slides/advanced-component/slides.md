@@ -359,3 +359,46 @@ There are two types of built-in differs: iterable differs and key-value differs:
 - The AfterContentChecked works siomilarly, but it's called after the directive check has finished. The check, in this contenxt , is the change detection system check
 
 - AfterViewInit and AftwareViewChecked are triggered right after the content ones above, right after the view has been full initialized. Those two hooks are only applicable to components, and not to directives
+
+---
+
+# Advanced Templates
+
+- Template elements are special elements used to create views that can be dynamically manipulated
+
+- In order to make working with templates ismoler, Angular provides some sytactic sugar to create templates, so we often don't create them by hand
+
+--- 
+
+# Change Detection
+
+- As a user interacts with our app, data (state) changes and our app needs to respond accordingly.
+
+- In order to make the view react to changes to components state, Angular uses change detection
+
+---
+
+# What trigger changes in a component's state?
+
+- User interaction
+- HTTP request
+- Timer
+
+But, how does Angular become aware of these changes?
+
+--- 
+
+# Component Change Detector
+
+- Each cmoponent gets a change detector
+
+- Every Angular app is made of a component tree. For each component on our tree, a chenage detector is created and so we end up with a tree of change detectors
+
+- When one of the components change, no matter where it is in the tree, a change detection pass is triggered for the whole tree.
+
+- Due to a number of optimizations, change detection process is surprisingly fast.
+
+---
+
+# Customizing Change Detection
+
