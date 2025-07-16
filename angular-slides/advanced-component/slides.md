@@ -147,3 +147,63 @@ The new code for the component:
 })
 export class PopupDemoComponent3 {}
 ```
+
+---
+
+# Creating a Popup: Adding a Button using exportAs
+
+```
+@Directive({
+    selector: '[popup]',
+    exportAs: 'popup', // <-- this is the important step
+})
+export class PopupDirective {
+    @Input() message: String;
+
+    constructor(_elementRef: ElementRef) {
+        console.log(_elementRef);
+    }
+
+    @HostListener('click') displayMessage(): void {
+        alert(this.message);
+    }
+}
+```
+
+---
+
+```
+template: `
+    <div class="ui message" popup #popup1="popup"
+        message="Clicked the message">
+        <div class="header">
+            Learning Directives
+        </div>
+
+        <p>
+            This should use our Popup directive
+        </p>
+    </div>
+
+    <i class="alarm icon" popup #popup2="popup"
+        message="Clicked the alarm icon"></i>
+`
+```
+
+---
+
+```
+
+<div style="margin-top: 20px;">
+
+    <button (click)="popup1.displayMessage()" class="ui button">
+        Display popup for message element
+    </button>
+
+    <button (click)="popup2.displayMessage()" class="ui button">
+        Display popup for alarm icon
+    </button>
+
+</div>
+
+```
