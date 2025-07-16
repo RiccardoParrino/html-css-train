@@ -402,3 +402,6 @@ But, how does Angular become aware of these changes?
 
 # Customizing Change Detection
 
+- There are times that the built-in or default change detection mechanism may be overkill. 
+
+- In these cases, Angular provides mechanisms for configuring the change detection system so that you get very fast performance.
