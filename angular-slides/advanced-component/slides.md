@@ -291,3 +291,61 @@ export class MessageComponent implements OnInit {
     }
 }
 ```
+
+---
+
+# Lifecycle Hooks
+
+Lifecycle hooks are the way Angular allows you to add code that runs before or after each step of the directive of component lifecycle
+
+- Most used lifecycle hooks:
+    - OnInit
+    - OnDestroy
+    - DoCheck
+    - OnChanges
+
+---
+
+# Lifecycle Hooks (2)
+
+- Other lifecycle hooks:
+    - AfterContentInit
+    - AfterContentChecked
+    - AfterViewInit
+    - AfterViewChecked
+
+---
+
+# OnInit and OnDestroy hook
+
+- The OnInit hook is called when your directive properties have initialized, and before any of the child directive propeorties are initialized
+
+- The OnDestroy hook is called when the directive instance is destroyed
+
+---
+
+# OnChanges hook
+
+- The OnChanges hook is called after one or more of our component properties have been changed.
+
+- The ngOnChanges method receives a parameter which tells which properties have changed.
+
+---
+
+# DoCheck hook
+
+- in order to evaluate what changed, ANgular provides differs. Differs will evaluate a given property of your directive to determine what changed.
+
+There are two types of built-in differs: iterable differs and key-value differs:
+
+---
+
+# Iterable differs
+
+- Iterable differs should be used when we have a list-like structure and we're only interested in knowing things that were added or removed from that list
+
+---
+
+# Key-value differs
+
+- Key-value differs should be used for dictionary-like structure, and work at the key level. This differ will identitfy changes whan a new key is added, when a key removed and when the value of a key changed.
