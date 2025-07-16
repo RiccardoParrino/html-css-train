@@ -13,7 +13,7 @@ marp: true
 - Styling components (with encapsulation)
 - Modifyind host DOM elements
 - Modifying templates with Content Projection
-- Accessing neighbor directives
+- Accessing neighbor directives (TODO)
 - Using lifecycle hooks
 - Detecting changes
 
