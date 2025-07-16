@@ -12,8 +12,8 @@ marp: true
 
 - Styling components (with encapsulation)
 - Modifyind host DOM elements
--  Modifying templates with Content Projection
--  Accessing neighbor directives
+- Modifying templates with Content Projection
+- Accessing neighbor directives
 - Using lifecycle hooks
 - Detecting changes
 
@@ -206,4 +206,88 @@ template: `
 
 </div>
 
+```
+
+---
+
+# Creating a Message Pane with Content Projection
+
+- Sometimes when we are creating components we want to pass inner markup as an argument to the component.
+
+- This technique is called content projection
+
+- The idea is that it lets us specigy a bit of markup that will be expanded into a bigger template
+
+---
+
+Our goal is: make this message
+
+```
+<div message header="My Message">
+    This is the content of the message
+</div>
+```
+
+rendered to:
+
+```
+<div class="ui message">
+    <div class="header">
+        My Message
+    </div>
+
+    <p>
+        This is the content of the message
+    </p>
+</div>
+```
+---
+
+We have two challenges:
+
+- change the host element <div> to add the ui and message CSS classes
+
+- add the div's contents to a specific place in our markup
+
+---
+
+To solve the first problem we will use the 
+
+```
+@HostBinding('attr.class') cssClass = 'ui message'
+```
+
+This decoration in the component tells angular that we want the value of cssClass to be kept in sync with the host's attribute class.
+
+---
+
+To solve the second problem, we will use the:
+
+- Include the original host element children in a specific part of a view. To do that, we use the 
+
+- ng-content directive
+
+---
+The complete component:
+
+```
+@Component({
+    selector: '[app-message]',
+    template: `
+        <div class="header">
+            {{header}}
+        </div>
+        <p>
+            <ng-content></ng-content>
+        </p>
+    `
+})
+export class MessageComponent implements OnInit {
+    @Input() header: string;
+    @HostBinding('attr.class') cssClass = 'ui message';
+
+    ngOnInit(): void {
+        console.log('header', this.header);
+    }
+}
 ```
