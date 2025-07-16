@@ -99,3 +99,51 @@ export class PopupDirective {
 
 # Creating a Popup: Do something when the host is clicked
 
+- In this case is necessary the HostListener decorator: this allows a directive to listen to events on its host element
+
+---
+The new code for the directive:
+
+```
+@Directive({
+    selector: '[popup]'
+})
+export class PopupDirective {
+    @Input() message: String;
+
+    constructor(_elementRef: ElementRef) {
+        console.log(_elementRef);
+    }
+
+    @HostListener('click') displayMessage(): void {
+        alert(this.message);
+    }
+}
+```
+
+---
+
+The new code for the component:
+
+```
+@Component({
+    selector: 'app-popup-demo',
+    template: `
+        <div class="ui message" popup
+            message="Clicked the message">
+        
+            <div class="header">
+                Learning Directives
+            </div>
+
+            <p>
+                This should use our Popup directive
+            </p>
+        </div>
+
+        <i class="alarm icon" popup
+            message="Clicked the alarm icon"></i>
+    `
+})
+export class PopupDemoComponent3 {}
+```
