@@ -14,7 +14,7 @@ marp: true
 - Testing Services
 - Testing HTTP
 - Testing Components
-- Testing Forms
+- Testing Forms (TODO)
 - Testing HTTP requests
 - Summary
 
@@ -83,10 +83,6 @@ marp: true
 - A spy is a specific type of mock object that gives us two benefits:
     - we can simulate return values and
     - count how many times the method was called and with which parameters
-
----
-
-# Testing Forms
 
 ---
 
