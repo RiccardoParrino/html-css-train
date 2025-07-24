@@ -342,7 +342,7 @@ p1.sayHello();
 Main differences from a fuction: Capitalized name, this keyword, called with new
 
 ---
-# Object Section: How to Create an Object
+# Object in Javascript: How to Create an Object
 - Create it as a Object Literal
 - Call a pseudoclassical constructor with the `new` operator
 - Call Object.create method on a prototype object
@@ -426,18 +426,12 @@ class Car {
 const myCar = new Car("Ford", 2014);
 ```
 ---
-
-Classes are always executed in "strict mode", never in script mode.
-
----
-
 # Class and OOP: Inheritance
 - Inheritance is based on prototype chain (prototype-based inheritance)
 - Every object has its own prototype
 - To find the method to be executed on a certain object, explore the prototype chain to the null element
 - Class is sintactic sugar for prototype. Behind a class definition there is always a prototype
 ---
-
 # Class and OOP: Prototype
 - actual version of the class definition
 - Every object is linked to a prototype object from which it can inherit properties
@@ -462,12 +456,9 @@ console.log(person.hasOwnProperty("name)); // true
 delete another_stooge.nickname;
 ```
 This will remove the nickname only for the object on which is invoked, not on to the prototype
-
 ---
-
 # Class and OOP: Global Abatement 
 Don't use global variables, instead put it into a map
-
 ```
 var MYAPP = {};
 MYAPP.stooge {
@@ -497,12 +488,10 @@ MYAPP.flight = {
 - You can use this keyword to referencing the attribute and the method of the class
 ---
 # Class and OOP: Modules
-
 - JavaScript modules allow you to break up your code into separate files
 - Modules are imported from external files with the import statement
 - You can export (and then import) functions and variables in two ways: Named Exports and Default Exports
 ---
-
 # Class and OOP: Modules (Named Exports)
 - An example of Named Exports:
 ```
@@ -516,7 +505,6 @@ const age = 40;
 export {name, age};
 ```
 ---
-
 # Class and OOP: Modules (Default Exports)
 - An example of Default export:
 ```
@@ -527,16 +515,12 @@ const message = () => {
 };
 export default message;
 ```
-
 ---
-
 # Class and OOP: Modules (Import)
-
 - Importing a named export modules:
 ```
 import {name, age} from "./person.js"
 ```
-
 - Importing from a default export:
 ```
 import message from "./message.js"
@@ -560,18 +544,13 @@ import message from "./message.js"
 ---
 # Class and OOP: Classes and Types (Constructor)
 - Another way to identify the class of an object is to simply use the constructor property, that is the public face of the class
-
 - One shortcoming is: JavaScript does not require that every object have a constructor property, sometimes it is accidentally omit, sometimes intentionally
-
 - Sometimes can be useful get the name of the construct instead of the type but not all object have a constructor name defined and not all object have a constructor function with a nam
 ---
 # Class and OOP: Classes and Type (Duck-Typing)
 - not ask "what is the class of this object?", instead try asking "what can this object do?" 
-
 - The general idea is: look if a certain object have a certain method or a certain property, without knowing if it is of a certain type
-
 - this is the same concept of implementing an interface (e.g. implementing a functionality) instead of extending a class
-
 ---
 # Class and OOP: Object-Oriented Techniques in JavaScript
 - Encapsulation: private attribute with `#`
@@ -639,7 +618,9 @@ class Person {
 }
 ```
 The _underscore notation makes the attribute private by convention, but publicly accessible. The #hashtag notation makes the attribute purely private as other OOP language. 
+
 ---
+
 # Class and OOP: Object-Oriented Techniques (get/set)
 - Getter e setter in JavaScript
 ```
@@ -674,9 +655,7 @@ class MathUtils {
 console.log(MathUtils.somma(2, 3)); // 5
 ```
 ---
-
 # Class and OOP: Object Specifiers
-
 Better way of writing constructors: 
 ```
 // One way
@@ -696,18 +675,6 @@ var myObject = maker({
 - valueOf() convert an object to a primitive value: do it only if a natural representation of the object is possible
 - toJSON() serializes the object in a JSON file
 ---
-# Class and OOP: Comparison Methods
----
-# Class and OOP: Borrowing Methods
----
-# Class and OOP: Private State
----
-# Class and OOP: Constructor Overloading and Factory Methods
----
-# Class and OOP: Composition Versus Subclassing
----
-# Class and OOP: Class Hierarchies and Abstract Classes
----
 # Function
 ---
 # Function
@@ -719,16 +686,9 @@ var myObject = maker({
 5. IIFE
 5. Functional Programming
 ---
-
-# Function: Hoisting
-- Hoisting is the mechanism by which you can referred to the function before its declaration
-
----
 # Function: Function Properties, Method and Constructor
 - We say that in JavaScript Function are value, and so they have Constructor, Properties and Method
-
 - Constructor: (not popular)
-
 ```
 function myFunc(a, b) {
     return a + b;
@@ -736,10 +696,8 @@ function myFunc(a, b) {
 
 const myFunc = new Function('a','b','return a + b');
 ```
-
 ---
 # Function: Function Properties, Method and Constructor (2)
-
 - Properties: 
     - .length: number of parameters
     - .name: name of the function (void if anonymous)
@@ -752,7 +710,6 @@ console.log(greet.customProp); // "Hello!"
 ```
 ---
 # Function: Function Properties, Method and Constructor (3)
-
 - Method of the function:
     - call: call a function on an object
     - apply: as call, but arguments in the array
@@ -799,7 +756,6 @@ bound() // "Hi, Tom"
 - this attribute can be used to ensure a function is called with the `new` keyword, as a constructor. This is the right way of realize a constructor by function
 
 - this works also with class constructor
-
 ```
 function MyObject() {
     if (!new.target) {
@@ -811,7 +767,6 @@ new MyObject(); // the correct way
 MyObject(); // the wrong way
 ```
 ---
-
 # Function: Augmenting Types
 - JavaScripts allows the basic tyes of the language to be augmented
 
@@ -819,7 +774,6 @@ MyObject(); // the wrong way
 
 - This also works for functions, arrays, strings, numbers, regular expressions and booleans
 ---
-
 # Function: Encode or decode URI
 
 - encodeURI() function is used to encode an URL. This function requires a URL string as a parameter and return that encoded string. decodeURI() function is used to decode an URL. This function requires an encoded URL string as parameter and return that decoded string.
@@ -829,6 +783,61 @@ let uri = "employeeDetails?name=john&occupation=manager";
 let encoded_uri = encodeURI(uri);
 let decoded_uri = decodeURI(encoded_uri);
 ```
+---
+# Function: Hoisting
+- Hoisting is the mechanism by which you can referred to the function before its declaration
+---
+# Functional Programming: Function on Arrays
+- forEach, Map, Filter, Reduce
+---
+# Functional Programming: Function are First-Class Citizen
+
+- In JavaScript, first-class citizens mean that functions are treated like any other variable:
+
+- They can be assigned to a variable
+- They can be passed as argument to another function
+- They can be returned by another function
+
+- This capability enables powerful patterns like callbacks, higher order functions, event handling and functional programming in JavaScript.
+
+---
+
+# Functional Programming: Higher-Order Function
+
+- A higher-order function is a function that operates on function, taking one or more function as arguments  and returning a new function
+
+An example:
+```
+function not(f) {
+    return function() {
+        var result = f.apply(this, arguments);
+        return !result;
+    }
+}
+```
+---
+
+# Functional Programming: Unary Function
+- A unary function (also known as a monadic function) is a function that accepts exactly one argument. The term "unary" simply refers to the function's arity -  the number of arguments it takes
+
+---
+
+# Functional Programming: Pure Function
+- A pure function is a function whose output depends only on its input arguments and produces no side effects. This means that given the same inputs, a pure function will always return the same output, and it does not modify any external state or data, e.g. it has not side effects.
+
+---
+
+# Functional Programming: Partial Application of Functions
+
+- The bind() method of a function f returns a new function that invokes f in a specified context and with a specified set of arguments. We say that it binds the function to an object and partially applies the arguments.
+
+---
+# Functional Programming: Currying
+- Currying is the technique in which a function that takes multiple arguments is broken into several function that take only one argument
+- This technique is typically used in functional programming
+---
+# Functional Programming: Memoization
+- Memoization is the technique in which you memoize results for application of a slow function in the way you can return it in constant time when the same function is re-applied to the same input
 ---
 # Function: Exception
 General Structure of the exception
@@ -885,77 +894,16 @@ p.catch(
 - you cannot create custom error with reject
 - if you create a reject error, should always be a catch block of the element
 ---
-# Functional Programming: Function on Arrays
-- forEach, Map, Filter, Reduce
----
-# Functional Programming: Function are First-Class Citizen
-
-- In JavaScript, first-class citizens mean that functions are treated like any other variable:
-
-- They can be assigned to a variable
-- They can be passed as argument to another function
-- They can be returned by another function
-
-- This capability enables powerful patterns like callbacks, higher order functions, event handling and functional programming in JavaScript.
-
----
-
-# Functional Programming: Higher-Order Function
-
-- A higher-order function is a function that operates on function, taking one or more function as arguments  and returning a new function
-
-An example:
-```
-function not(f) {
-    return function() {
-        var result = f.apply(this, arguments);
-        return !result;
-    }
-}
-```
----
-
-# Functional Programming: Unary Function
-- A unary function (also known as a monadic function) is a function that accepts exactly one argument. The term "unary" simply refers to the function's arity -  the number of arguments it takes
-
----
-
-# Functional Programming: Pure Function
-- A pure function is a function whose output depends only on its input arguments and produces no side effects. This means that given the same inputs, a pure function will always return the same output, and it does not modify any external state or data, e.g. it has not side effects.
-
----
-
-# Functional Programming: Partial Application of Functions
-
-- The bind() method of a function f returns a new function that invokes f in a specified context and with a specified set of arguments. We say that it binds the function to an object and partially applies the arguments.
-
----
-# Functional Programming: Currying
-- Currying is the technique in which a function that takes multiple arguments is broken into several function that take only one argument
-- This technique is typically used in functional programming
----
-# Functional Programming: Memoization
-- Memoization is the technique in which you memoize results for application of a slow function in the way you can return it in constant time when the same function is re-applied to the same input
----
 # Client Side Javascript
 - Handling Events
 - Scripting DOM
-- Web Workers
 - Asynchronous Programming
 - Client-Side Storage
-- External Libraries
-- Testing
-- Server-Sent Events
-
+- External Libraries (TODO)
+- Testing (TODO)
+- Web Workers (TODO)
+- Server-Sent Events (TODO)
 ---
-
-# Handling Events
-
-- Event Bubbling
-- Event Capturing
-
----
-
 # Handling Events: Common Events
 - Click of the mouse
 - Web page has loaded
@@ -963,44 +911,30 @@ function not(f) {
 - Input field is changed
 - HTML form is submitted
 - User strokes a key
-
 ---
-
 # Handling Events: Assign Events
-
 - Event attributes
-
 ```
 <button onclick="displayDate()">Try it</button>
 ```
-
 - Event Listener
-
 ```
 document.getElementById("myBtn").addEventListener("click", displayDate);
 ```
-
 ---
-
 # Handling Events: Remove Event Listener()
-
 You can also remove the event listener attached to a particular element
-
 ```
 element.removeEventListener("mousemove", myFunction);
 ```
 ---
-
 # HTML DOM Manipulation
 - DOM stands for Document Object Model and is constructed as a tree of Objects
 - HTML DOM can be accessed with JavaScript
 - A property is a value that you can get or set (like changing the content of an HTML element)
 - A method is an action you can do (like add or deleting an HTML element)
-
 ---
-
 # HTML DOM Manipulation: API
-
 - Finding HTML Elements
     - document.getElementById(id)
     - document.getElementsByTagName(name)
@@ -1012,18 +946,14 @@ element.removeEventListener("mousemove", myFunction);
     - element.attribute = new value
     - element.style.property = new style (adding css style property)
     - element.setAttribute(attribute, value)
-
 ---
-
 # HTML DOM Manipulation: API (2)
-
 Adding and Deleting Elements
 - document.createElement(element): create an HTML element
 - document.removeChild(element): remove an HTML element
 - document.appendChild(element): add an HTML element
 - document.replaceChild(new, old): replace an HTML element
 - document.write(text): write into the HTML output stream
-
 Adding Events Handlers
 - document.getElementById(id).onclick = function(){...}
 ---
@@ -1171,16 +1101,11 @@ element.removeEventListener("mousemove", myFunction);
 ---
 
 # HTML DOM Navigation: DOM Root Nodes
-
 - document.body - The body of the document
 - document.documentElement - The full document
-
 ---
-
 # HTML DOM Navigation: nodeName Property
-
 - the nodeName property specify the name of a node
-
 ```
 <h1 id="id01">My First Page</h1>
 <p id="id02"></p>
@@ -1189,14 +1114,10 @@ element.removeEventListener("mousemove", myFunction);
 document.getElementById("id02").innerHTML = document.getElementById("id01").nodeName;
 </script>
 ```
-
 ---
-
 # HTML DOM Navigation: nodeValue Property
-
 - The nodeValue property specifies the value of a node
 - The nodeType Property is read only. It returns the type of a node.
-
 ---
 
 # HTML DOM Navigation: Creating New HTML Elements 
@@ -1473,10 +1394,10 @@ myDisplay();
 
 - Web Storage: sessionStorage and localStorage
 - Cookies
-- IE User Data
-- Offline Web Application
-- Web Databases
-- Filesystem API
+- IE User Data (TODO)
+- Offline Web Application (TODO)
+- Web Databases (TODO)
+- Filesystem API (TODO)
 
 --- 
 
