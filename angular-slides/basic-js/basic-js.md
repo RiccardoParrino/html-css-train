@@ -1341,6 +1341,118 @@ const myCollection = document.getElementsByTagName("p");
 
 ---
 
+# HTML BOM: Browser Object Model
+
+- The Browser Object Model (BOM) allows JavaScript to "talk to" the browser
+
+- The window object is supported by all browser. It represnts the browser's window.
+
+---
+
+# HTML BOM: Window Methods
+
+Two properties can be used to determine the size of the browser window.
+
+- window.innerHeight - the inner height of the browser window (in pixels)
+- window.innerWidth - the inner width of the browser window (in pixels)
+
+- Some other methods:
+    - window.open() - open a new window
+    - window.close() - close the current window
+    - window.moveTo() - move the current window
+    - window.resizeTo() - resize the current window
+
+---
+
+# HTML BOM: Window Screen
+
+- The window.screen object contains information about the user's screen
+
+- Properties are:
+    - screen.width
+    - screen.height
+    - screen.availWidth
+    - screen.availHeight
+    - screen.colorDepth
+    - screen.pixelDepth
+
+---
+
+# HTML BOM: Window Location
+
+- The window.location object can be used to get the current page address (URL) and to redirect the browser to a new page.
+
+- properties available:
+    - window.location.href returns the href (URL) of the current page
+    - window.location.hostname return the domain name of the web host
+    - window.location.pathname returns the path and filename of the current page 
+    - window.location.protocol returns the web protocol used
+    - window.location.assign() loads a new document
+
+---
+
+# HTML BOM: Window History
+
+- The window.history object contains the browser history
+
+- Some methods:
+    - history.back() - same as clicking back in the browser
+    - history.forward() - same as clicking forward in the browser
+
+---
+
+# HTML BOM: JavaScript Popup Boxes
+
+- JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+An example of Alert Box
+```
+window.alert("sometext");
+```
+
+An example of Confirm Box
+```
+window.confirm("sometext");
+```
+
+An example of Prompt Box
+```
+window.prompt("sometext","defaultText");
+```
+
+---
+
+# Web Geolocation API
+
+- The HTML Geolocation API is used to get the geographical position of a user
+- The getCurrentPosition() method is used to return the user's position.
+- You can display the results in a map, but you need access to a map service, like Google Maps or OpenStreetMap
+```
+console.log(navigator.geolocation.getCurrentPosition(showPosition);)
+```
+---
+
+# Web Geolocation API: Showing the result in a map
+
+An example of snippet:
+```
+function showPosition(position) {
+  let latlon = position.coords.latitude + "," + position.coords.longitude;
+
+  let img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
+  "+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_KEY";
+
+  document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+```
+This snippet is given from W3School tutorial. (https://www.w3schools.com/js/js_api_geolocation.asp)
+
+- You can also get other information from getCurrentPosition() like latitude, longitude, accuracy, altitude...
+
+- Other interesting method: watchPosition() returns the current position of the user and continues to return updated position and clearWatch() stopping the watchPosition() method.
+
+---
+
 # Asynchronous Programming: Promise Introduction
 
 - "Producing code" is code that can take some time
