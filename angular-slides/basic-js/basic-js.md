@@ -18,6 +18,68 @@ marp: true
 8) Asynchronous Programming
 7) Testing
 8) External libraries
+
+---
+
+# Lexical Structure: Difference between let and var
+- var properties:
+    - It has function scope (this means that, you can reference a variable outside the block where it has been defined (supposing you're inside the same function))
+    - Variable declaration will be hoisted, initialized as undefined (this means, you can reference a variable before declare it and you will not get any error)
+    - It is possible to re-declare the variable in the same scope (this means, you can redeclare a variable with same name)
+
+- let properties:
+    - It has block scope
+    - Hoisted but not initialized
+    - It is not possible to re-declare the variable
+
+---
+
+# Lexical Structure: Difference between let and var
+
+```
+function userDetails(username) {
+  if (username) {
+    console.log(salary); // undefined due to hoisting
+    console.log(age); // ReferenceError: Cannot access 'age' before initialization
+    let age = 30;
+    var salary = 10000;
+  }
+  console.log(salary); //10000 (accessible due to function scope)
+  console.log(age); //error: age is not defined(due to block scope)
+}
+userDetails("John");
+```
+---
+
+# Lexical Structure: Strict mode and Script mode
+
+- Strict mode is useful to write "secure" JavaScript by notifying "bad syntax" into real errors. For example, it eliminates accidentally creating a global variable by throwing an error and also throws an error for assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object.
+
+- The strict mode is declared by adding "use strict"; to the beginning of a script or a function. If declared at the beginning of a script, it has global scope.
+---
+
+# Lexical Structure: Double exclamation
+
+- The double exclamation or negation (!!) ensures the resulting type is a boolean. It's the two time application of the negation operator
+
+```
+!!false // -> false
+!!true // -> true
+!!0 // -> true
+!!1 // -> true
+!!NaN // -> false
+!!'hello' // -> true
+```
+
+---
+
+# Lexical Structure: Temporal Dead Zone
+
+- Temporal Dead Zone refers to the period between the entering of a scope and the actual declaration of a variable using let or const
+- This will rise an undefined value, if the variable is declared as var
+- This will rise a ReferenceError, if the variable is declared as let
+- Solution: declare all variable at the beginning of the scope, as in C-style
+
 ---
 # General Structure: Primitive Types and Object types
 In JavaScript there are two types of values:
@@ -26,6 +88,7 @@ In JavaScript there are two types of values:
 - Object type: list of properties (key-value pair), it's mutable and it is created by literals, classes and functions: Object, Array, Function, Map, Date, RegExp, Set, Custom Class Instance
 
 - primitive types are passed by value, object type are passed by reference
+
 ---
 # General Structure: Numbers
 - Integer Literals
@@ -279,6 +342,37 @@ function sumSpread (numbers) {
 sumSpread([1, 2, 3]);
 ```
 ---
+
+# Array: common methods on Array
+- join
+- reverse
+- sort
+- concat
+- slice
+- splice
+- push and pop
+- shift and unshift
+- toString and toLocaleString
+
+---
+
+# Map in JavaScript
+
+```
+const map = new Map()
+
+map.set("a", 1);
+map.set("b", 2);
+map.set("c", 3);
+
+console.log(map.get("a"));
+console.log(map.size);
+map.delete("b");
+console.log(map.size);
+```
+
+---
+
 # Object in JavaScript
 1. Basic feature of an object
 2. Creating an Object
@@ -305,6 +399,7 @@ const updated_user = {...user, age:31};
 // Destructuring with rest op
 const {nome, ...data} = user;
 ```
+
 ---
 # Object in JavaScript: Constructor vs Function
 Function and Constructor are very similar in JavaScript, take a look at this example
@@ -322,94 +417,12 @@ p1.sayHello();
 Main differences from a fuction: Capitalized name, this keyword, called with new
 
 ---
-
-# Object Section
----
-
-# Object Section: Pseudoclassical Pattern
-
----
-
-# Object Section: Functional Pattern
-
----
-
-# Object Section: Durable Object
-- A durable object is an object that is created with functional style and  all of the methods of the object make no use of this or super class.
-
-- A durable object is simply a collectino of functions that act as capabilities
-
----
 # Object Section: How to Create an Object
 - Create it as a Object Literal
 - Call a pseudoclassical constructor with the `new` operator
 - Call Object.create method on a prototype object
 - Call a functional constructor
----
 
-# Object section: How to make private properties and method in Object?
-- Use the pseudoclassical pattern
-
----
-
-# Object section: Parts pattern
-- We can compose objects out of sets od parts
-
-```
-function canTalk(obj) {
-  return {
-    talk() {
-      console.log(`talk`);
-      }};}
-function canWalk(obj) {
-  return {
-    walk() {
-      console.log(`walk`);}};}
-function canFly(obj) {
-  return {
-    fly() {
-      console.log(`fly`);}};}
-```
----
-```
-function createRobot(name) {
-  const base = { name };
-  return {
-    ...base,
-    ...canTalk(base),
-    ...canWalk(base)
-  };
-}
-
-function createDrone(name) {
-  const base = { name };
-  return {
-    ...base,
-    ...canFly(base),
-    ...canTalk(base)
-  };
-}
-```
----
-# Object: Differential Inheritance
-When you define a first initial object and then create another object with the same structure by expressing the differences with the first one
-
-```
-var myMammal =  {
-    name: 'Herb the Mammal',
-    get_name: function () {
-        return this.name;
-    }
-    says: function () {
-        return this.saying || '';
-    }
-}
-var myCat = Object.create(myMammal);
-myCat.name = 'Henrietta';
-myCat.saying = 'meow';
-myCat.purr = fuction (n) {/*express the purr function*/}
-myCat.get_name = function() {/*overwrite the existing function*/}
-```
 ---
 # Object: Enumerating Properties
 - to know about all of the properties inside an object, one can iterate over them with a for/in loop
@@ -423,6 +436,29 @@ myCat.get_name = function() {/*overwrite the existing function*/}
     - keys: return an array that hold the names of the enumerabl own props of o
 ---
 
+# Object: Serializing Objects (JSON)
+
+- JSON.stringify: transform an object to a json string
+
+```
+s = JSON.stringify(o)
+```
+
+- JSON.parse: parse a string into an object
+```
+p = JSON.parse(s);
+```
+
+- JSON ops apply only to enumerable properties of an object, not to all of that
+---
+
+# Generator in JavaScript
+
+---
+
+# Iterator in JavaScript
+
+---
 # Class and OOP in JavaScript
 1) Class
 2) Prototype
@@ -534,6 +570,52 @@ MYAPP.flight = {
 - Inside the constructor you can call super()
 - You can use extends keyword to extend one class
 - You can use this keyword to referencing the attribute and the method of the class
+---
+# Class and OOP: Modules
+
+- JavaScript modules allow you to break up your code into separate files
+- Modules are imported from external files with the import statement
+- You can export (and then import) functions and variables in two ways: Named Exports and Default Exports
+---
+
+# Class and OOP: Modules (Named Exports)
+- An example of Named Exports:
+```
+export const name = "Jesse";
+export const age = 40;
+```
+or all at once:
+```
+const name = "Jesse";
+const age = 40;
+export {name, age};
+```
+---
+
+# Class and OOP: Modules (Default Exports)
+- An example of Default export:
+```
+const message = () => {
+    const name = "Jesse";
+    const age = 40;
+    return name + ' is ' + age + 'years old.';
+};
+export default message;
+```
+
+---
+
+# Class and OOP: Modules (Import)
+
+- Importing a named export modules:
+```
+import {name, age} from "./person.js"
+```
+
+- Importing from a default export:
+```
+import message from "./message.js"
+```
 ---
 # Class and OOP: Augmenting Classes
 - An object inherits properties from its prototype, even if the prototype changes after the object is created
@@ -812,6 +894,17 @@ MyObject(); // the wrong way
 
 - This also works for functions, arrays, strings, numbers, regular expressions and booleans
 ---
+
+# Function: Encode or decode URI
+
+- encodeURI() function is used to encode an URL. This function requires a URL string as a parameter and return that encoded string. decodeURI() function is used to decode an URL. This function requires an encoded URL string as parameter and return that decoded string.
+
+```
+let uri = "employeeDetails?name=john&occupation=manager";
+let encoded_uri = encodeURI(uri);
+let decoded_uri = decodeURI(encoded_uri);
+```
+---
 # Function: Exception
 General Structure of the exception
 ```
@@ -871,8 +964,46 @@ p.catch(
 - forEach, Map, Filter, Reduce
 ---
 # Functional Programming: Function are First-Class Citizen
+
+- In JavaScript, first-class citizens mean that functions are treated like any other variable:
+
+- They can be assigned to a variable
+- They can be passed as argument to another function
+- They can be returned by another function
+
+- This capability enables powerful patterns like callbacks, higher order functions, event handling and functional programming in JavaScript.
+
 ---
-# Functional Programming: High-Order Function
+
+# Functional Programming: Higher-Order Function
+
+- A higher-order function is a function that operates on function, taking one or more function as arguments  and returning a new function
+
+An example:
+```
+function not(f) {
+    return function() {
+        var result = f.apply(this, arguments);
+        return !result;
+    }
+}
+```
+---
+
+# Functional Programming: Unary Function
+- A unary function (also known as a monadic function) is a function that accepts exactly one argument. The term "unary" simply refers to the function's arity -  the number of arguments it takes
+
+---
+
+# Functional Programming: Pure Function
+- A pure function is a function whose output depends only on its input arguments and produces no side effects. This means that given the same inputs, a pure function will always return the same output, and it does not modify any external state or data, e.g. it has not side effects.
+
+---
+
+# Functional Programming: Partial Application of Functions
+
+- The bind() method of a function f returns a new function that invokes f in a specified context and with a specified set of arguments. We say that it binds the function to an object and partially applies the arguments.
+
 ---
 # Functional Programming: Currying
 - Currying is the technique in which a function that takes multiple arguments is broken into several function that take only one argument
@@ -885,10 +1016,12 @@ p.catch(
 - HTML & CSS Scripting
 - Handling Events
 - Scripting DOM
+- Web Workers
 - Asynchronous Programming
 - Client-Side Storage
 - External Libraries
 - Testing
+- Server-Sent Events
 
 ---
 
@@ -1028,7 +1161,7 @@ myDisplay();
 
 # Client-Side Storage
 
-- Web Storage: sessioneStorage and localStorage
+- Web Storage: sessionStorage and localStorage
 - Cookies
 - IE User Data
 - Offline Web Application
@@ -1074,8 +1207,24 @@ let sessionName = sessionStorage.getItem("name")
 
 - localStorage is share among the all opened windows
 - every window has its own sessionStorage
-- both of localStorage and sessionStorage are accessible onlu from the same domain
+- both of localStorage and sessionStorage are accessible only from the same domain
 
+---
+# Web storage: cookie
+
+- A cookie is a piece of data that is stored on your computer to be accessed by your browser. Cookies are saved as key/value pairs
+
+- Cookie are useful to remember information about the user profile (such as username). It basically involves two steps, when a user visits a web page, the user profile can be stored in a cookie and next time the user visits the page, the cookie remembers the user profile.
+
+- To set cookie in a webpage, you'll have:
+```
+document.cookie = "username=JohnDoe; path=/services";
+```
+
+- To delete a cookie, you can set the expiration date as passed:
+```
+document.cookie = "username=; expires=Fri, 07 Jun 2019 00:00:00 UTC; path=/;";
+```
 ---
 
 # Testing
