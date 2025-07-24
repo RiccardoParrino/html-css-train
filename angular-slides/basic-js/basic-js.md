@@ -1013,7 +1013,6 @@ function not(f) {
 - Memoization is the technique in which you memoize results for application of a slow function in the way you can return it in constant time when the same function is re-applied to the same input
 ---
 # Client Side Javascript
-- HTML & CSS Scripting
 - Handling Events
 - Scripting DOM
 - Web Workers
@@ -1065,6 +1064,280 @@ You can also remove the event listener attached to a particular element
 ```
 element.removeEventListener("mousemove", myFunction);
 ```
+---
+
+# HTML DOM Manipulation
+- DOM stands for Document Object Model and is constructed as a tree of Objects
+- HTML DOM can be accessed with JavaScript
+- A property is a value that you can get or set (like changing the content of an HTML element)
+- A method is an action you can do (like add or deleting an HTML element)
+
+---
+
+# HTML DOM Manipulation: API
+
+- Finding HTML Elements
+    - document.getElementById(id)
+    - document.getElementsByTagName(name)
+    - document.getElementsByClassName(className)
+    - document.getElementsByClassName(name)
+
+- Changing HTML Elements
+    - element.innerHTML = new html content
+    - element.attribute = new value
+    - element.style.property = new style (adding css style property)
+    - element.setAttribute(attribute, value)
+
+---
+
+# HTML DOM Manipulation: API (2)
+
+Adding and Deleting Elements
+- document.createElement(element): create an HTML element
+- document.removeChild(element): remove an HTML element
+- document.appendChild(element): add an HTML element
+- document.replaceChild(new, old): replace an HTML element
+- document.write(text): write into the HTML output stream
+
+Adding Events Handlers
+- document.getElementById(id).onclick = function(){...}
+---
+
+# HTML DOM Manipulation: JavaScript Forms
+
+- HTML form validation can be done by JavaScript
+As example:
+
+```
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+```
+
+- Data validation is the process of ensuring that user input is clean, correct and useful
+
+- Data validation can be done server side (using HTML, CSS or JavaScript) or client side (after calling the backend services)
+
+---
+
+# HTML DOM Manipulation: Changing CSS
+
+- To change the style of an HTML element, use this syntax:
+
+```
+document.getElementById(id).style.property = new style
+```
+
+- The style of an HTML element can also be changed when an event occurs, for example on click of a button or on when the page is loaded.
+
+- Using events and changing CSS style of the element, you can also create animation 
+
+---
+
+# HTML DOM Manipulation: DOM Events
+
+- HTML DOM allows JavaScript to react to HTML events
+- A JavaScript function can be executed when an event occurs, like when a user click on an HTML element
+
+---
+
+# HTML DOM Manipulation: DOM Events (2)
+
+- To assign events to HTML elements you can use event attributes
+```
+<button onclick="displayDate()">Try it</button>
+```
+
+- Assign an onclick event to a button element
+```
+document.getElementById("myBtn").onclick = displayDate;
+```
+where displayDate is a function, assigned to an HTML element
+
+
+- The third way is to assign an event listener
+```
+document.document.getElementById("myBtn").addEventListener("click", function() { ... })
+```
+---
+ 
+# HTML DOM Manipulation: DOM Events (3)
+
+A small list of event
+- onload and onunload events
+- oninput events
+- onchange event
+- onmouseover and onmouseout events
+- onmousedown, onmouseup and onclick events
+- ...
+
+---
+
+# HTML DOM Manipulation: EventListener
+
+- You can attach an event listener to an element:
+```
+document.getElementById("myBtn").addEventListener("click", displayDate);
+```
+
+- You can also attach many event Handlers to the same element
+```
+element.addEventListener("click", myFunction);
+element.addEventListener("click", mySecondFunction);
+```
+
+---
+
+# HTML DOM Manipulation: Event Listener to the window Object
+
+- The addEventListener() method allows you to add event listeners on any HTML DOM object such as HTML elements, the HTML document, the window object, or other objects that support events, like the xmlHttpRequest object
+
+```
+window.addEventListener("resize", function(){
+  document.getElementById("demo").innerHTML = sometext;
+});
+```
+---
+
+# HTML DOM Manipulation: Event Bubbling or Event Capturing
+
+- Event propagation is a way of defining the element order when an event occurs.
+
+- In bubbling the inner most element's event is handled first and then the outer
+
+- In capturing the outer most element's event is handled first and then the inner
+
+```
+addEventListener(event, function, useCapture);
+```
+
+- The default value is false, which will use the bubbling propagation, when the value is set to true, the  event uses the capturing propagation.
+
+---
+
+# HTML DOM Manipulation: removeEventListener method
+
+- The removeEventListener() method removes event handlers that have been attached with the addEventListener() method
+
+```
+element.removeEventListener("mousemove", myFunction);
+```
+
+---
+
+# HTML DOM Navigation
+
+- With the HTML DOM, you can navigate the node tree using node relationship
+- With the HTML DOM, all noes in the node tree can be acessed by Javascript
+- New nodes can be created, and all nodes can be modified or deleted
+
+---
+
+# HTML DOM Navigation: Node Relationships
+
+- html is the root node, it has no parents, the first child is head and second and last child is body
+
+- then head has one child, title, and title has a text node
+- body has two children ... and so on and so forth
+
+- InnerHTML property let you retrieve the content of an HTML element
+
+---
+
+# HTML DOM Navigation: DOM Root Nodes
+
+- document.body - The body of the document
+- document.documentElement - The full document
+
+---
+
+# HTML DOM Navigation: nodeName Property
+
+- the nodeName property specify the name of a node
+
+```
+<h1 id="id01">My First Page</h1>
+<p id="id02"></p>
+
+<script>
+document.getElementById("id02").innerHTML = document.getElementById("id01").nodeName;
+</script>
+```
+
+---
+
+# HTML DOM Navigation: nodeValue Property
+
+- The nodeValue property specifies the value of a node
+- The nodeType Property is read only. It returns the type of a node.
+
+---
+
+# HTML DOM Navigation: Creating New HTML Elements 
+
+An example of adding a new HTML elements
+```
+<div id="div1">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const para = document.createElement("p");
+const node = document.createTextNode("This is new.");
+para.appendChild(node);
+
+const element = document.getElementById("div1");
+element.appendChild(para);
+</script>
+```
+
+- Then you can also insertBefore(element, newNode), instead of appendChild(node)
+
+---
+
+# HTML DOM Navigation: Removing Existing HTML Elements
+
+An example of removing existing node:
+```
+<div>
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+const elmnt = document.getElementById("p1"); elmnt.remove();
+</script>
+```
+- You can also do remove child ( parent.removeChild(child) ), instead of removing the current node
+
+- Or also replace child with parent.replaceChild(para, child);
+---
+
+# HTML DOM Navigation: HTMLCollection Object
+
+- The getElementsByTagName() method return an HTMLCollection object.
+- An HTMLCollection object is an array-like list (collection) of HTML elements
+
+```
+const myCollection = document.getElementsByTagName("p");
+```
+- Then you can apply any kind of operation you know on array
+
+---
+
+# HTML DOM Navigation: HTML NodeList Object
+
+- A NodeList object is a list (collection) of nodes extracted from a document
+
+- A NodeList object is almost the same as an HTMLCollection object
+
+- Some (older) browsers return a NodeList object instead of an HTMLCollection for methdos like getElementsByClassName or querySelectorAll()
+
+- The difference from HTMLCollection: NodeList is a collection of document nodes
+
+- HTMLCollection is always a mutable collection, instead NodeList is most often a static collection.
 
 ---
 
