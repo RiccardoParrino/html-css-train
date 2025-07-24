@@ -2,25 +2,38 @@
 marp: true
 ---
 
-# Basics in JavaScript
+# Basic introduction in JavaScript
 
 ---
 
 # Index
-0) Basics
-1) Object
-1) Regular Expression
-2) Array
-3) Object
-4) Function
-5) DOM Manipulation
-6) Class and OOP
-8) Asynchronous Programming
-7) Testing
-8) External libraries
+1) Lexical Structure
+2) Primitive Types
+3) Array
+4) Object
+5) Function
+6) Classes and Modules
+7) Asynchronous Programming
 
 ---
+# Lexical Structure: Basic Syntax
+- JavaScritp let you use all of the common statement shared with other languages like
+- if...else, while, do..while(), for, for-in, for-of and so on and so forth
+---
+# Lexical Structure: Primitive Types and Object types
+In JavaScript there are two types of values:
+- Primitive Types: String, Number, BigInt, Boolean, Symbol, Undefined, Null
 
+- Object type: list of properties (key-value pair), it's mutable and it is created by literals, classes and functions: Object, Array, Function, Map, Date, RegExp, Set, Custom Class Instance
+
+- Primitive Types are passed by value, Object Type are passed by reference
+---
+# Lexical Structure: null and undefined
+- Null is a value assigned to a variable, by which you don't already know to value
+- The null value is a primitive value that represents the null, empty, or non-existent reference
+- Undefined variable are variable referenced but not alread assigned, this can happen with the var keyword and hoisting
+- This cannot happen with the let keyword and the var declaration variable should be avoided
+---
 # Lexical Structure: Difference between let and var
 - var properties:
     - It has function scope (this means that, you can reference a variable outside the block where it has been defined (supposing you're inside the same function))
@@ -31,11 +44,8 @@ marp: true
     - It has block scope
     - Hoisted but not initialized
     - It is not possible to re-declare the variable
-
 ---
-
 # Lexical Structure: Difference between let and var
-
 ```
 function userDetails(username) {
   if (username) {
@@ -50,89 +60,13 @@ function userDetails(username) {
 userDetails("John");
 ```
 ---
-
-# Lexical Structure: Strict mode and Script mode
-
-- Strict mode is useful to write "secure" JavaScript by notifying "bad syntax" into real errors. For example, it eliminates accidentally creating a global variable by throwing an error and also throws an error for assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object.
-
-- The strict mode is declared by adding "use strict"; to the beginning of a script or a function. If declared at the beginning of a script, it has global scope.
----
-
-# Lexical Structure: Double exclamation
-
-- The double exclamation or negation (!!) ensures the resulting type is a boolean. It's the two time application of the negation operator
-
-```
-!!false // -> false
-!!true // -> true
-!!0 // -> true
-!!1 // -> true
-!!NaN // -> false
-!!'hello' // -> true
-```
-
----
-
-# Lexical Structure: Temporal Dead Zone
-
-- Temporal Dead Zone refers to the period between the entering of a scope and the actual declaration of a variable using let or const
-- This will rise an undefined value, if the variable is declared as var
-- This will rise a ReferenceError, if the variable is declared as let
-- Solution: declare all variable at the beginning of the scope, as in C-style
-
----
-# General Structure: Primitive Types and Object types
-In JavaScript there are two types of values:
-- Primitive Types: String, Number, BigInt, Boolean, Symbol, Undefined, Null
-
-- Object type: list of properties (key-value pair), it's mutable and it is created by literals, classes and functions: Object, Array, Function, Map, Date, RegExp, Set, Custom Class Instance
-
-- primitive types are passed by value, object type are passed by reference
-
----
-# General Structure: Numbers
-- Integer Literals
-- Floating-Point Literals
-- Arithmetic in JavaScript
-- Binary Floating-Point and Rounding Errors
----
-# General Structure: Dates and Times
----
-# General Structure: Text
-- String Literals
-- Escape Sequences in String Literals
-- Pattern Matching
----
-# General Structure: Boolean Values
----
-# General Structure: null and undefined
----
-# General Structure: The Global Object
----
-# General Structure: Wrapper Objects
----
-# General Structure: Immutable Primitive Values and Mutable Object Refereces
----
-# General Structure: Type Conversions
-- Conversions and Equality
-- Explicit Conversions
-- Object to Primitive Conversions
----
-# General Structure: Variable Declaration
-- Repeated and Omitted Declarations
----
-# General Structure: Variable Scope
-- global variables has global scope
-- variabled declared within a function are defined only within the body of the function
-- Function parameters also are local variables
+# Lexical Structure: Variable Scope
+- Global variables has global scope, and should be avoided for this
+- Variable defined with var keyword have function scope visibility
+- Variable defined with let keyword have block scope visibility
 - Local variable hides global variables with the same name
 ---
-# General Structure: Var, Let and Const
-- var: Declares variables with function or global scope and allow re-declaration and updates within the same scope (to be avoided)
-- let: Declares variable with block scope, allowing updated but not re-declaration within the same block
-- const: Declares block-scoped variables that cannot be reassigned after their initial assignment
----
-# General Structure: Literals
+# Lexical Structure: Literals
 - A literal is a data value that appears directly in a program
 ```
 // These are all literals
@@ -142,13 +76,18 @@ var o = {x:1, y:2};
 var ar = [1,2,3,4]
 ```
 ---
-# General Structure: Variable Declaration
-- var variable declaration
-- 
+# Lexical Structure: Temporal Dead Zone
+- Temporal Dead Zone refers to the period between the entering of a scope and the actual declaration of a variable using let or const
+- This will rise an undefined value, if the variable is declared as var
+- This will rise a ReferenceError, if the variable is declared as let
+- Solution: declare all variable at the beginning of the scope, as in C-style
 ---
+# Lexical Structure: Strict mode and Script mode
+- Strict mode is useful to write "secure" JavaScript by notifying "bad syntax" into real errors. For example, it eliminates accidentally creating a global variable by throwing an error and also throws an error for assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object.
 
+- The strict mode is declared by adding "use strict"; to the beginning of a script or a function. If declared at the beginning of a script, it has global scope.
+---
 # Regular Expression in JavaScript
-
 ---
 # Regular Expression: Base syntax
 ```
@@ -198,7 +137,6 @@ console.log(regex.test(email)); // true
 1. forEach, Map, Filter
 2. Destructuring Array
 3. Rest Operator
-
 ---
 # Array: Adding and Deleting Array Elements
 - to add an element use the push function:
@@ -287,9 +225,7 @@ s[1]        // => "e"
 - the benefit of using String as Array is to use charAt with square bracket and the possibility to use generic array functions on String
 - But string are immutable and also strings as array behave in this way. So push, pop, sort, reverse and splice doesn't work and they don't returns an errors, simply fail silently
 --- 
-
 # Array: Destructuring Array
-
 ```
 const numbers = [10,20,30];
 
@@ -300,9 +236,7 @@ console.log(a); // 10
 console.log(b); // 20
 console.log(c); // 30
 ```
-
 ---
-
 # Array: Destructuring Array (2)
 ```
 const numbers = [10,20,30];
@@ -313,11 +247,9 @@ const [first, , third] = numbers;
 console.log(first); // 10
 console.log(third); // 30
 ```
-
 ---
 
 # Array: Destructuring Array (3)
-
 ```
 const number = [5];
 const [x,y = 99] = number;
@@ -342,7 +274,6 @@ function sumSpread (numbers) {
 sumSpread([1, 2, 3]);
 ```
 ---
-
 # Array: common methods on Array
 - join
 - reverse
@@ -353,11 +284,8 @@ sumSpread([1, 2, 3]);
 - push and pop
 - shift and unshift
 - toString and toLocaleString
-
 ---
-
 # Map in JavaScript
-
 ```
 const map = new Map()
 
@@ -370,14 +298,11 @@ console.log(map.size);
 map.delete("b");
 console.log(map.size);
 ```
-
 ---
-
 # Object in JavaScript
 1. Basic feature of an object
 2. Creating an Object
 3. Destructuring an Object
-
 ---
 
 # Object in JavaScript: Spread Operator and Rest Operator
@@ -1595,7 +1520,7 @@ let sessionName = sessionStorage.getItem("name")
 - both of localStorage and sessionStorage are accessible only from the same domain
 
 ---
-# Web storage: cookie
+# Web storage: Cookie
 
 - A cookie is a piece of data that is stored on your computer to be accessed by your browser. Cookies are saved as key/value pairs
 
@@ -1610,28 +1535,4 @@ document.cookie = "username=JohnDoe; path=/services";
 ```
 document.cookie = "username=; expires=Fri, 07 Jun 2019 00:00:00 UTC; path=/;";
 ```
----
-
-# Testing
-1. Basics
-2. Jasmine (Jest, Mocha)
-
----
-
-# External Libraries
-
----
-
-# External Libraries: Topics
-1. Ajax
-2. jQuery
-3. Fetch
-4. Axios
-5. Superagent
-6. Prototype
-7. Node HTTP
-
----
-
-# Server Side JavaScript
 
